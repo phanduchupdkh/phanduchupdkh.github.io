@@ -1,3065 +1,1134 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html class="no-js" lang="vi"> <!--<![endif]-->
-	<head>
-		<meta name="google-site-verification" content="V73Dkqg_96FRL4fujXGAL_uEmvm1fRAMC3bUJOtNfRY">
-		<meta charset="UTF-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta name="robots" content="noodp,index,follow">
-		<meta name="keywords" content="phòng khám đa khoa, phòng khám, khám sức khỏe">
-		<meta name="revisit-after" content="1 days">
-		
-		<title>Phòng khám đa khoa Dr. Binh Tele_Clinic</title>
-		
+﻿<!DOCTYPE html>
+<html>
 
-		
-		<meta name="description" content="N&#7857;m trong TOP 2 PKĐK duy nh&#7845;t thu&#7897;c danh sách 13 cơ s&#7903; khám ch&#7919;a b&#7879;nh t&#7841;i Hà N&#7897;i có đ&#7911; đi&#7873;u ki&#7879;n v&#7873; cơ s&#7903; v&#7853;t ch&#7845;t, chuyên môn đ&#7875; khám và đi&#7873;u tr&#7883; cho c&#7843; Ngư&#7901;i nư&#7899;c ngoài và ngư&#7901;i Vi&#7879;t Nam v&#7899;i chi phí c&#7841;nh tranh. . Áp d&#7909;ng H&#7879; th&#7889;ng qu&#7843;n lý b&#7879;nh vi&#7879;n t&#7893;ng th&#7875; HIS-PACK-LIS, Trung tâm Y t&#7871; 24/7 Telehealth Center">
-		
-		<link rel="canonical" href="https://drbinh.com/">
-		<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Welcome To | Bootstrap Based Admin Template - Material Design</title>
+    <!-- Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-		
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
+    <!-- Bootstrap Core Css -->
+    <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-<meta property="og:description" content="N&#7857;m trong TOP 2 PKĐK duy nh&#7845;t thu&#7897;c danh sách 13 cơ s&#7903; khám ch&#7919;a b&#7879;nh t&#7841;i Hà N&#7897;i có đ&#7911; đi&#7873;u ki&#7879;n v&#7873; cơ s&#7903; v&#7853;t ch&#7845;t, chuyên môn đ&#7875; khám và đi&#7873;u tr&#7883; cho c&#7843; Ngư&#7901;i nư&#7899;c ngoài và ngư&#7901;i Vi&#7879;t Nam v&#7899;i chi phí c&#7841;nh tranh. . Áp d&#7909;ng H&#7879; th&#7889;ng qu&#7843;n lý b&#7879;nh vi&#7879;n t&#7893;ng th&#7875; HIS-PACK-LIS, Trung tâm Y t&#7871; 24/7 Telehealth Center">
+    <!-- Waves Effect Css -->
+    <link href="plugins/node-waves/waves.css" rel="stylesheet" />
 
-<meta property="og:url" content="https://drbinh.com/">
-<meta property="og:site_name" content="Dr. Binh Tele_Clinic">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Phòng khám đa khoa Dr. Binh Tele_Clinic">
-<meta property="og:image" content="images/logo_1.png">
-<meta property="og:image:secure_url" content="images/logo.png">
+    <!-- Animation Css -->
+    <link href="plugins/animate-css/animate.css" rel="stylesheet" />
 
+    <!-- Morris Chart Css-->
+    <link href="plugins/morrisjs/morris.css" rel="stylesheet" />
 
-		<!-- Helpers ================================================== -->
-		<link rel="canonical" href="https://drbinh.com/">
-		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-		<!-- Styles -->
-		<style>
-	@font-face{
-		font-family:BaomoiMenu;
-		src:url(fonts/baomomenu_gdi_1.eot);
-		src:url(fonts/baomomenu_gdi.eot#iefix?1615175747775) format('embedded-opentype'),
-			url(fonts/baomomenu_gdi.woff) format('woff'),url(fonts/baomomenu_gdi.ttf) format('truetype')
-	}
-	@font-face{
-		font-family:Baomoi;
-		src:url(fonts/baomoi_gdi_1.eot);
-		src:url(fonts/baomoi_gdi.eot#iefixv=1?1615175747775) format('embedded-opentype'),url(fonts/baomoi_gdi.woff) format('woff'),url(fonts/baomoi_gdi.ttf) format('truetype')
-	}
-	@font-face{
-		font-family:Baomoi;
-		src:url(fonts/baomoi-italic_gdi_1.eot);
-		src:url(fonts/baomoi-italic_gdi.eot#iefixv=1?1615175747775) format('embedded-opentype'),url(fonts/baomoi-italic_gdi.woff) format('woff'),url(fonts/baomoi-italic_gdi.ttf) format('truetype');
-		font-style:italic}
-	@font-face{
-		font-family:Baomoi;src:url(fonts/baomoi-semibold_gdi_1.eot);
-		src:url(fonts/baomoi-semibold_gdi.eot#iefixv=1?1615175747775) format('embedded-opentype'),url(fonts/baomoi-semibold_gdi.woff) format('woff'),url(fonts/baomoi-semibold_gdi.ttf) format('truetype');font-weight:700}
-	@font-face{
-		font-family:Baomoi;src:url(fonts/baomoi-semibolditalic_gdi_1.eot);
-		src:url(fonts/baomoi-semibolditalic_gdi.eot#iefixv=1?1615175747775) format('embedded-opentype'),url(fonts/baomoi-semibolditalic_gdi.woff) format('woff'),url(fonts/baomoi-semibolditalic_gdi.ttf) format('truetype');font-weight:700;font-style:italic
-	}
+    <!-- Custom Css -->
+    <link href="css/style.css" rel="stylesheet">
 
-</style>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-<link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
-<link href="css/owl.theme.css" rel="stylesheet" type="text/css">
-
-<link href="css/jgrowl.css" rel="stylesheet" type="text/css">
-<link href="css/settings.css" rel="stylesheet" type="text/css">
-<link href="css/main_styles.css" rel="stylesheet" type="text/css">
-		<!-- fonts --> 
-		<script src="js/jquery.min.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-
-<script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-<script src="js/owl.carousel.js" type="text/javascript"></script>
-
-
-<script src="js/off-canvas.js" type="text/javascript"></script>
-
-
-
-<script src="js/jquery.flexslider.js" type="text/javascript"></script>
-<script src="js/custom.js" type="text/javascript"></script>
-
-<script>
-	jQuery(document).ready(function(){
-
-	"use strict";
-
-	/* Method for award slider */
-	jQuery(".tz-award-slider").owlCarousel({
-		items : 1,
-		itemsDesktop : [1199,1],
-		itemsDesktopSmall : [979,1],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:true,
-		stopOnHover: false,
-		singleItem:true,
-		rewindNav:true,
-		clone:true,
-		pagination:false,
-		autoHeight : true,
-		paginationNumbers:true,
-		itemsScaleUp:true,
-	});
-	// Custom Navigation Events
-	jQuery(".award_prev").click(function(){
-		jQuery(".tz-award-slider").trigger('owl.prev');
-	}) ;
-	jQuery(".award_next").click(function(){
-		jQuery(".tz-award-slider").trigger('owl.next');
-	}) ;
-
-
-	/* Method for award slider */
-	jQuery(".tz-award-slider1").owlCarousel({
-		items : 2,
-		itemsDesktop : [1199,2],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:true,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		autoHeight : true,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	// Custom Navigation Events
-	jQuery(".award_prev1").click(function(){
-		jQuery(".tz-award-slider1").trigger('owl.prev');
-	}) ;
-	jQuery(".award_next1").click(function(){
-		jQuery(".tz-award-slider1").trigger('owl.next');
-	}) ;
-
-
-
-	/* Method for award slider */
-	jQuery(".tz-award-slider2").owlCarousel({
-		items : 2,
-		itemsDesktop : [1199,2],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:300,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:true,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		autoHeight : true,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	// Custom Navigation Events
-	jQuery(".award_prev2").click(function(){
-		jQuery(".tz-award-slider2").trigger('owl.prev');
-	}) ;
-	jQuery(".award_next2").click(function(){
-		jQuery(".tz-award-slider2").trigger('owl.next');
-	}) ;
-
-
-
-	/* Method for simple slider */
-	jQuery(".tz-simple-product").owlCarousel({
-		items : 1,
-		itemsDesktop : [1199,1],
-		itemsDesktopSmall : [979,1],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	// Custom Navigation Events
-	jQuery(".simple_prev").click(function(){
-		jQuery(".tz-simple-product").trigger('owl.prev');
-	}) ;
-	jQuery(".simple_next").click(function(){
-		jQuery(".tz-simple-product").trigger('owl.next');
-	}) ;
-
-	/* Method for Partner slider */
-	jQuery(".partner-slider").owlCarousel({
-		items : 1,
-		itemsDesktop : [1199,1],
-		itemsDesktopSmall : [979,1],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:true,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	
-
-	jQuery(".award_prev3").click(function(){
-		jQuery(".partner-slider").trigger('owl.prev');
-	}) ;
-	jQuery(".award_next3").click(function(){
-		jQuery(".partner-slider").trigger('owl.next');
-	}) ;
-	
-	
-	/* Method for Partner slider */
-	jQuery(".partner-slider1").owlCarousel({
-		items : 5,
-		itemsDesktop : [1199,5],
-		itemsDesktopSmall : [979,5],
-		itemsTablet: [768, 3],
-		itemsMobile: [479, 2],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:true,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	
-
-	jQuery(".award_prev33").click(function(){
-		jQuery(".partner-slider1").trigger('owl.prev');
-	}) ;
-	jQuery(".award_next33").click(function(){
-		jQuery(".partner-slider1").trigger('owl.next');
-	}) ;
-
-
-	/* Method for Our Team */
-	jQuery(".tz-team-slider").owlCarousel({
-		items : 4,
-		itemsDesktop : [1199,4],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 2],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-
-	/* Method for Quote */
-	jQuery(".tz-quote").owlCarousel({
-		items : 1,
-		itemsDesktop : [1199,1],
-		itemsDesktopSmall : [979,1],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-
-	/* Method for say */
-	jQuery(".tz-say-slider").owlCarousel({
-		items : 3,
-		itemsDesktop : [1199,3],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	// Custom Navigation Events
-	jQuery(".say_prev").click(function(){
-		jQuery(".tz-say-slider").trigger('owl.prev');
-	}) ;
-	jQuery(".say_next").click(function(){
-		jQuery(".tz-say-slider").trigger('owl.next');
-	}) ;
-
-	/* Method for Header */
-	var $_window =  jQuery(window).width();
-	if ( $_window >= 992 ) {
-		var $_scrollTop  = '' ;
-		$_scrollTop      = jQuery(this).scrollTop();
-		if ( $_scrollTop >= 30 ) {
-			jQuery('.tz-header2').addClass('tz-header-animation');
-			jQuery('.tz-header5').addClass('tz-header5-eff');
-
-		}else{
-			jQuery('.tz-header2').removeClass('tz-header-animation');
-			jQuery('.tz-header5').removeClass('tz-header5-eff');
-		}
-		jQuery(window).scroll(function(){
-			var $_scrollTop  = '' ;
-			$_scrollTop      = jQuery(this).scrollTop();
-			if ( $_scrollTop >= 30 ) {
-				jQuery('.tz-header2').addClass('tz-header-animation');
-
-
-			}else{
-				jQuery('.tz-header2').removeClass('tz-header-animation');
-
-
-			}
-
-		});
-	}
-
-	/* Method for skill */
-	if ( jQuery('.chart').length > 0 ) {
-		var $_elementTop =   jQuery('.chart').offset().top;
-		jQuery(window).scroll(function(){
-			var $_Top = jQuery(window).scrollTop();
-			if ( $_Top > $_elementTop - 600 ){
-				jQuery('.chart').easyPieChart({
-					easing: 'easeOutBounce',
-					scaleColor: false,
-					size: 150,
-					lineWidth: 5,
-					trackColor: '#615950',
-					barColor: '#f1805f',
-					onStep: function(from, to, percent) {
-						jQuery(this.el).find('.percent').text(Math.round(percent));
-					}
-				});
-				jQuery('.tz-rotate-skill').css('opacity', 1);
-			}
-		});
-	}
-
-	/* Method for menu offcavas */
-	var $true = true;
-	jQuery('.tz-offcavas').click(function(){
-		if ( $true == true ){
-			jQuery('.tz-offcavans-menu').animate({
-				left : '0'
-			},300) ;
-			jQuery('.tzscrollable').addClass('tz-offcavans-menu-eff');
-			$true = false;
-		}else{
-			jQuery('.tz-offcavans-menu').animate({
-				left : '-20em'
-			},150,function(){
-				jQuery('.tzscrollable').removeClass('tz-offcavans-menu-eff');
-			}) ;
-			$true = true;
-		}
-	});
-	jQuery('.tz-offcanvas-close').click(function(){
-		jQuery('.tz-offcavans-menu').animate({
-			left : '-20em'
-		},150,function(){
-			jQuery('.tzscrollable').removeClass('tz-offcavans-menu-eff');
-		}) ;
-		$true = true;
-	});
-
-	/* Method for shop features slider */
-	jQuery(".features-slider").owlCarousel({
-		items : 2,
-		itemsDesktop : [1199,2],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 2],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	jQuery(".features_prev").click(function(){
-		jQuery(".features-slider").trigger('owl.prev');
-	}) ;
-	jQuery(".features_next").click(function(){
-		jQuery(".features-slider").trigger('owl.next');
-	}) ;
-
-	/* Method for shop sales slider */
-	jQuery(".sales-slider").owlCarousel({
-		items : 2,
-		itemsDesktop : [1199,2],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 2],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	jQuery(".sales_prev").click(function(){
-		jQuery(".sales-slider").trigger('owl.prev');
-	}) ;
-	jQuery(".sales_next").click(function(){
-		jQuery(".sales-slider").trigger('owl.next');
-	}) ;
-
-	/* Method for shop features 2 slider */
-	jQuery(".features-slider2").owlCarousel({
-		items : 2,
-		itemsDesktop : [1199,2],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 2],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	// Custom Navigation Events
-	jQuery(".features_prev2").click(function(){
-		jQuery(".features-slider2").trigger('owl.prev');
-	}) ;
-	jQuery(".features_next2").click(function(){
-		jQuery(".features-slider2").trigger('owl.next');
-	}) ;
-
-	/* Method for shop sales 2 slider */
-	jQuery(".sales-slider2").owlCarousel({
-		items : 2,
-		itemsDesktop : [1199,2],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 2],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	jQuery(".sales_prev2").click(function(){
-		jQuery(".sales-slider2").trigger('owl.prev');
-	}) ;
-	jQuery(".sales_next2").click(function(){
-		jQuery(".sales-slider2").trigger('owl.next');
-	}) ;
-
-	/* Method for shop Tab */
-	jQuery('.tz-shop-tab').each(function(){
-		jQuery(this).find('.tzshop-content:first').show();
-		jQuery(this).find('.tz-shop-title small:first').addClass('tab-active');
-	});
-	jQuery('.tz-shop-header .tz-shop-title small').click(function(){
-		jQuery(this).parent().find('small').removeClass('tab-active');
-		jQuery(this).addClass('tab-active');
-		var $id = jQuery(this).attr('data-option-value');
-		jQuery(this).parent().parent().parent().find('.tzshop-content').slideUp();
-		jQuery('#'+$id).slideDown();
-	}) ;
-
-	/* Method for Bestsellers */
-	jQuery(".tz-bestsellers-slider").owlCarousel({
-		items : 3,
-		itemsDesktop : [1199,3],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 2],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	jQuery(".bestsellers_prev").click(function(){
-		jQuery(".tz-bestsellers-slider").trigger('owl.prev');
-	}) ;
-	jQuery(".bestsellers_next").click(function(){
-		jQuery(".tz-bestsellers-slider").trigger('owl.next');
-	}) ;
-
-	/* Method for Love Word  */
-	jQuery(".tz-love-slider").owlCarousel({
-		items : 3,
-		itemsDesktop : [1199,3],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 2],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:true,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-
-	/* tz-love-words-slider */
-	jQuery(".tz-love-words-slider").owlCarousel({
-		items : 1,
-		itemsDesktop : [1199,1],
-		itemsDesktopSmall : [979,1],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:true,
-		pagination:true,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-
-	/* Method for video */
-	jQuery('.tzautoplay').click(function(){
-		var $_this = jQuery(this);
-		var myVideo = $_this.parents('.tz-video').find('.videoID')[0];
-		jQuery(this).hide();
-		$_this.parents('.tz-video').find('.tz-video-content h3').css('opacity',0);
-		$_this.parents('.tz-video').find('.tz-video-content strong').css('opacity',0);
-		$_this.parents('.tz-video').find('.bg-video').hide();
-		$_this.parents('.tz-video').find('.tzpause').show().css('opacity',0);
-		if (myVideo.paused)
-			myVideo.play();
-
-	}) ;
-	jQuery('.tzpause').click(function(){
-		jQuery(this).hide();
-		var $_this = jQuery(this);
-		var myVideo = $_this.parents('.tz-video').find('.videoID')[0];
-		$_this.parents('.tz-video').find('.tz-video-content h3').css('opacity',1);
-		$_this.parents('.tz-video').find('.tz-video-content strong').css('opacity',1);
-		$_this.parents('.tz-video').find('.bg-video').show();
-		$_this.parents('.tz-video').find('.tzautoplay').show();
-		if (myVideo.play)
-			myVideo.pause();
-
-	});
-
-	/* Method for Search */
-	jQuery('.tz-search').click(function(){
-		jQuery('.tz-form-search').css('display','block');
-		jQuery('.tz-search-input').focus();
-	}) ;
-	jQuery('.tz-form-close').click(function(){
-		jQuery('.tz-form-search').css('display','none');
-	});
-
-	/* Method for Single portfolio */
-	jQuery(".tz-slider-full").owlCarousel({
-		items : 1,
-		itemsDesktop : [1199,1],
-		itemsDesktopSmall : [979,1],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:false,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-	jQuery(".tz_slider_prev").click(function(){
-		jQuery(".tz-slider-full").trigger('owl.prev');
-	}) ;
-	jQuery(".tz_slider_next").click(function(){
-		jQuery(".tz-slider-full").trigger('owl.next');
-	}) ;
-
-	/* Method for Single portfolio gallery */
-	jQuery(".tz-gallery-full").owlCarousel({
-		items : 4,
-		itemsDesktop : [1199,4],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:false,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-
-	/* Method for offfice */
-	jQuery(".tz-offfice-slider").owlCarousel({
-		items : 4,
-		itemsDesktop : [1199,4],
-		itemsDesktopSmall : [979,2],
-		itemsTablet: [768, 1],
-		itemsMobile: [479, 1],
-		slideSpeed:500,
-		paginationSpeed:800,
-		rewindSpeed:1000,
-		autoPlay:false,
-		stopOnHover: false,
-		singleItem:false,
-		rewindNav:false,
-		pagination:false,
-		paginationNumbers:false,
-		itemsScaleUp:false
-	});
-
-	/* Accordion Toggle Items */
-	var iconOpen = 'fa-chevron-down',
-		iconClose = 'fa-chevron-right';
-
-	jQuery('.tzaccordion').each(function(){
-		jQuery(this).find('p:first').show();
-		jQuery(this).find('h6:first').addClass('active');
-		jQuery(this).find('h6:first i').addClass(iconOpen).removeClass(iconClose);
-	});
-	jQuery('.tzaccordion h6').click(function() {
-		var $_this = jQuery(this);
-		$_this.parent().find('.active i').addClass(iconClose).removeClass(iconOpen);
-		$_this.parent().find('.active').removeClass('active');
-		$_this.parent().find('p').slideUp('normal');
-		if(jQuery(this).next('p').is(':hidden') == true) {
-			jQuery(this).find('i').addClass(iconOpen).removeClass(iconClose);
-			jQuery(this).addClass('active');
-			jQuery(this).next('p').slideDown('normal');
-		}
-	});
-
-
-
-});
-</script>
-
-  
-
-		<!-- Header hook for plugins ================================================== -->
-		
-<script>
-	var Bizweb = Bizweb || {};
-	Bizweb.store = 'drbinh.mysapo.net';
-	Bizweb.id = 89365;
-	Bizweb.theme = { 'id': 112903, 'name': 'Dr. Binh', 'role': 'main' };
-	Bizweb.template = 'index';
-</script>
-<script>
-	(function () {
-		function asyncLoad() {
-			var urls = ["https://bizwebform.sapoapps.vn/genscript/script.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//promotionpopup.sapoapps.vn/genscript/script.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//promotionpopup.sapoapps.vn/genscript/script.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","https://productcompare.sapoapps.vn/productcompare/CustomerAsset/CustomerScript?alias=drbinh\u0026store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","https://sp.zalo.me/embed/bizweb/script?oaId=2610991248886129737\u0026welcomeMessage=R\u1EA5t vui khi \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3 b\u1EA1n!\u0026autoPopup=0\u0026store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","//static.zotabox.com/e/0/e01ca3fd5fd6f228add3b6f503c6075c/widgets.js?store=drbinh.mysapo.net","https://file.hstatic.net/1000300983/file/ega.addon-hotline.v1.0.exec.min_a64be5e6fb3e4211a08d6c36de4908f0.js?store=drbinh.mysapo.net","https://file.hstatic.net/1000405773/file/ega.addon-fixed-toc.v1.1.0.trademark.min_a6e0f3564b1c428c9b4e6683b499035d.js?store=drbinh.mysapo.net","//newproductreviews.sapoapps.vn/assets/js/productreviews.min.js?store=drbinh.mysapo.net"];
-			for (var i = 0; i < urls.length; i++) {
-				var s = document.createElement('script');
-				s.type = 'text/javascript';
-				s.async = true;
-				s.src = urls[i];
-				var x = document.getElementsByTagName('script')[0];
-				x.parentNode.insertBefore(s, x);
-			}
-		};
-		window.attachEvent ? window.attachEvent('onload', asyncLoad) : window.addEventListener('load', asyncLoad, false);
-	})();
-</script>
-
-
-<script type="text/javascript">
-	(function () {
-		var log = document.createElement('script'); log.type = 'text/javascript';
-		log.async = true;
-		log.src = '//stats.bizweb.vn/delivery/89365.js?lang=vi';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(log, s);
-	})();
-</script>
-
-<script>
-	window.BizwebAnalytics = window.BizwebAnalytics || {};
-	window.BizwebAnalytics.meta = window.BizwebAnalytics.meta || {};
-	window.BizwebAnalytics.meta.currency = 'VND';
-	
-	var meta = {};
-	
-	for (var attr in meta) {
-		window.BizwebAnalytics.meta[attr] = meta[attr];
-	}
-</script>
-
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-81825344-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-
-
-
-
-<!--Facebook Pixel Code-->
-<script>
-	!function(f, b, e, v, n, t, s){
-	if (f.fbq) return; n = f.fbq = function(){
-	n.callMethod?
-	n.callMethod.apply(n, arguments):n.queue.push(arguments)}; if (!f._fbq) f._fbq = n;
-	n.push = n; n.loaded = !0; n.version = '2.0'; n.queue =[]; t = b.createElement(e); t.async = !0;
-	t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)}
-	(window,
-	document,'script','https://connect.facebook.net/en_US/fbevents.js');
-	fbq('init', '1741239626141943', {}, {'agent': 'plsapo'}); // Insert your pixel ID here.
-	fbq('track', 'PageView');
-	
-</script>
-<noscript>
-	<img height="1" width="1" style="display:none" src="tr">
-</noscript>
-<!--DO NOT MODIFY-->
-<!--End Facebook Pixel Code-->
-
-
-
-<script>
-	var eventsListenerScript = document.createElement('script');
-	eventsListenerScript.async = true;
-	eventsListenerScript.src = "/js/store_events_listener.js";
-	document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
-</script>
-
-
-		<!--[if lt IE 9]>
-<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<script src="css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->   
-		<!--[if lt IE 9]>
-<script src="//bizweb.dktcdn.net/100/089/365/themes/112903/assets/respond.min.js?1615175747775" type="text/javascript"></script>
-<![endif]-->
-		
-
-		<link href="css/tkn-style.css" rel="stylesheet" type="text/css">
-		<link href="css/font-awesome.min_1.css" rel="stylesheet">
-		<script src="js/tkn-util.js" type="text/javascript"></script>
-
-		<!-- Code kiem duyet cmt FB moi cua DrBinh===============  -->
-		<meta property="fb:app_id" content="830480047086236">  
-		<meta property="fb:admins" content="1599519723635623">
-		<!-- The Meta WebmasterTool  -->
-		<meta name="google-site-verification" content="V73Dkqg_96FRL4fujXGAL_uEmvm1fRAMC3bUJOtNfRY">
-
-		
-
-		<script>var PromotionPopupAppUtil=PromotionPopupAppUtil || {};</script>
-
-
-	<script>var ProductReviewsAppUtil=ProductReviewsAppUtil || {};ProductReviewsAppUtil.store={name: 'Dr. Binh Tele_Clinic'};</script>
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="css/themes/all-themes.css" rel="stylesheet" />
 </head>
-	<body>
 
-		<!-- Code chen cmt FB moi cua DrBinh===============-->
-		<div id="fb-root"></div>
-		<script>
-			if(navigator.userAgent.indexOf("Speed Insights") == -1) {
-				(function(d, s, id) {
-					var js, fjs = d.getElementsByTagName(s)[0];
-					if (d.getElementById(id)) return;
-					js = d.createElement(s); js.id = id;
-					js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.7&appId=830480047086236";
-					fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-			}
-		</script>
-
-		<!-- Google Code dành cho Thẻ tiếp thị lại -->
-		<!--------------------------------------------------
-Không thể liên kết thẻ tiếp thị lại với thông tin nhận dạng cá nhân hay đặt thẻ tiếp thị lại trên các trang có liên quan đến danh mục nhạy cảm. Xem thêm thông tin và hướng dẫn về cách thiết lập thẻ trên: http://google.com/ads/remarketingsetup
---------------------------------------------------->
-		<script type="text/javascript">
-			/* <![CDATA[ */
-			var google_conversion_id = 841416573;
-			var google_custom_params = window.google_tag_params;
-			var google_remarketing_only = true;
-			/* ]]> */
-		</script>
-		<script type="text/javascript" src="js/conversion.js">
-		</script>
-		<noscript>
-			<div style="display:inline;">
-				<img height="1" width="1" style="border-style:none;" alt src="841416573">
-			</div>
-		</noscript>		
-
-
-		<!--<div class="page-loader">
-<div class="loader-in">
-<div class="status">
-<span class="spin"></span>
-<span></span>
-</div>
-</div>
-</div>-->
-		<div class="top-header">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-5 hidden-xs hidden-sm hidden-md">
-				<p>Chào mừng bạn đến với Phòng khám Đa khoa Dr. Binh Tele_Clinic</p>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 hidden-xs">
-				<p>Giờ mở cửa: T2-T7/S:7h30-12h00/C:13h30-17h00</p>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				<p class="htl">HOTLINE: <strong><a href="tel:tel:19009204"><span style="color:#ffffff;">19009204</span></a></strong></p>
-				<ul class="ngongnu">
-					<li><a href="http://drbinh.com/"><img src="images/coviet.png" alt="tieng-viet"></a></li>
-					<li><a href="https://engdrbinh-bizwebvietnam-net.mysapo.net/"><img src="images/coanh.png" alt="tieng-anh"></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-<header class="tz-header tz-header2 ">
-	<div class="overlay"></div>
-	<div class="container" id="open_shopping_cart">
-		<div class="row">
-			<div class="col-xs-4 col-sm-2">
-				<h3 class="tz-logo">
-					<a class="logo" href="//drbinh.com">
-						
-						<img alt="Dr. Binh Tele_Clinic" src="images/logo.png">
-						
-					</a>
-				</h3>
-			</div>
-			<div class="col-xs-12 col-sm-8 hidden-xs">
-				<img src="images/slogan.jpg" alt="Dr. Binh Tele_Clinic" class="anhslogan">
-			</div>
-			<div class="col-xs-8 col-sm-2" style="margin-top: 15px;">
-				<button data-target=".nav-collapse" class="btn-navbar tz_icon_menu pull-right visible-xs" type="button">
-					<i class="fa fa-bars"></i>
-				</button>
-				<a class="pull-right tz-search" href="/search"> <i class="fa fa-search"></i>
-				</a>
-				<a href="/cart" class="pull-right cart_st"> <i class="fa fa-st fa-shopping-cart"></i><span id="cart-total">0</span></a>
-				
-				<div class="st_user">
-					<a class="pull-right" href="/account/login"> <i class="fa fa-st fa-key"></i></a>
-					<ul class="ul_user">
-						<li><a href="/account/login" id="customer_login_link">Đăng nhập</a></li>
-						<li><a href="/account/register" id="customer_register_link">Đăng kí</a></li>
-					</ul>
-				</div>
-				
-			</div>
-		</div>
-
-		<button data-target=".nav-collapse" class="btn-navbar tz_icon_menu visible-sm visible-md" type="button">
-			<i class="fa fa-bars"></i>
-		</button>
-
-		<div class="container" style=" margin-top: 15px;">
-			<div class="row">
-				<nav class>
-					<ul class="nav-collapse">
-						
-						
-						<li>
-							<a href="/">TRANG CHỦ</a>
-						</li>
-						
-						
-						
-						<li>
-							<a href="/gioi-thieu">GIỚI THIỆU</a>
-							<div class="nav-child dropdown-menu mega-dropdown-menu">
-								<div class="mega-dropdown-inner">
-									<div class="row">
-										<div data-width="12" class="col-md-12 mega-col-nav">
-											<div class="mega-inner">
-												<ul class="mega-nav level1">
-													
-													
-													<li>
-														<a href="/gioi-thieu">Giới thiệu chung</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/tam-nhin-va-su-menh">Tầm nhìn, sứ mệnh</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/vi-sao-nen-chon-dr-binh">Vì sao nên chọn Dr.Binh Tele_Clinic</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/cac-bac-si-cua-dr-binh-tele-clinic">Đội ngũ y bác sĩ</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/co-so-vat-chat">Cơ sở vật chất</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/hop-tac-quoc-te">Hợp tác quốc tế</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/">Quy trình khám bệnh tại Dr. Binh</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/quy-trinh-kham-bhyt">Quy trình khám BHYT</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/ho-so-nang-luc">Hồ sơ năng lực phòng khám</a>
-													</li>
-													
-													
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						
-						
-						
-						<li>
-							<a href="/tin-tuc">TIN TỨC</a>
-							<div class="nav-child dropdown-menu mega-dropdown-menu">
-								<div class="mega-dropdown-inner">
-									<div class="row">
-										<div data-width="12" class="col-md-12 mega-col-nav">
-											<div class="mega-inner">
-												<ul class="mega-nav level1">
-													
-													
-													<li>
-														<a href="/tin-uu-dai">Tin Ưu đãi</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/tin-su-kien">Tin sự kiện</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/thong-tin-y-te">Thông tin y tế</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/bao-chi-noi-ve-chung-toi">Báo chí nói về chúng tôi</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/bao-hiem-y-te">Tin tức BHYT</a>
-													</li>
-													
-													
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						
-						
-						
-						<li>
-							<a href="/">DỊCH VỤ</a>
-							<div class="nav-child dropdown-menu mega-dropdown-menu">
-								<div class="mega-dropdown-inner">
-									<div class="row">
-										<div data-width="12" class="col-md-12 mega-col-nav">
-											<div class="mega-inner">
-												<ul class="mega-nav level1">
-													
-													
-													<li>
-														<a href="/">Các chuyên khoa tại Phòng khám</a>
-														<ul class="mega-nav level1">
-															
-															<li>
-																<a href="/noi-tong-hop">Nội</a>
-															</li>
-															
-															<li>
-																<a href="/khoa-ngoai">Ngoại</a>
-															</li>
-															
-															<li>
-																<a href="/san-phu-khoa">Sản - Phụ Khoa</a>
-															</li>
-															
-															<li>
-																<a href="/nhi-khoa">Nhi</a>
-															</li>
-															
-															<li>
-																<a href="/">Da Liễu</a>
-															</li>
-															
-															<li>
-																<a href="/mat">Mắt</a>
-															</li>
-															
-															<li>
-																<a href="/rang-ham-mat">Răng Hàm Mặt</a>
-															</li>
-															
-															<li>
-																<a href="/tai-mui-hong">Tai Mũi Họng</a>
-															</li>
-															
-															<li>
-																<a href="/vat-ly-tri-lieu-hoi-phuc-chuc-nang">Vật lý trị liệu hồi phục chức năng</a>
-															</li>
-															
-															<li>
-																<a href="/xet-nghiem">Xét nghiệm</a>
-															</li>
-															
-															<li>
-																<a href="/chan-doan-hinh-anh">Chẩn đoán hình ảnh</a>
-															</li>
-															
-															<li>
-																<a href="/">Nội soi tiêu hóa</a>
-															</li>
-															
-														</ul>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/">Các gói khám sức khỏe</a>
-														<ul class="mega-nav level1">
-															
-															<li>
-																<a href="/cac-goi-kham-suc-khoe-ca-nhan">Gói khám sức khỏe cá nhân định kỳ</a>
-															</li>
-															
-															<li>
-																<a href="/cac-goi-tam-soat-ung-thu-som">Gói khám tầm soát ung thư sớm</a>
-															</li>
-															
-															<li>
-																<a href="/goi-dieu-tri-bang-vat-ly-tri-lieu">Gói liệu trình điều trị Vật lý trị liệu</a>
-															</li>
-															
-														</ul>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/dich-vu-bac-si-gia-dinh-cham-soc-suc-khoe-247">Bác sĩ gia đình chăm sóc y tế 24/7</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/nha-thuoc-gpp">Nhà thuốc GPP</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/khach-hang-than-thiet">Thẻ hội viên</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/dich-vu-medi-office-y-te-co-quan">Dịch vụ Y tế Cơ quan – MEDI-OFFICE</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="https://medihome.com.vn/">Dịch vụ Y tế gia đình – MEDI-HOME</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/lay-mau-xet-nghiem-tai-nha">Lấy mẫu xét nghiệm tại nhà</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/bao-hiem-y-te">Bảo hiểm Y tế</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/bao-lanh-vien-phi">Bảo lãnh viện phí</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="/dich-vu-uu-dai-dac-biet">Ưu đãi đặc biêt</a>
-													</li>
-													
-													
-													
-													<li>
-														<a href="https://drbinh.com/khoa-dao-tao-basic-life-support-ho-tro-cuoc-song-co-ban-bls">Đào tạo sơ cấp cứu</a>
-													</li>
-													
-													
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						
-						
-						
-						<li>
-							<a href="/hoi-dap-1">HỎI ĐÁP</a>
-						</li>
-						
-						
-						
-						<li>
-							<a href="/tin-tuyen-dung">TUYỂN DỤNG</a>
-						</li>
-						
-						
-						
-						<li>
-							<a href="/lien-he">LIÊN HỆ</a>
-						</li>
-						
-						
-						
-						<li>
-							<a href="/tra-cuu-ket-qua-truc-tuyen-voi-ung-dung-medihome-dr-binh">TRA CỨU HỒ SƠ</a>
-						</li>
-						
-						
-					</ul>
-				</nav>
-			</div>
-		</div>
-
-	</div><!--end class container-->
-</header><!--end class tz-header-->
-
-
-
-
-<!-- JSON-LD markup generated by Google Structured Data Markup Helper. -->
-<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "PHÒNG KHÁM ĐA KHOA DR. BINH TELE_CLINIC",
-  "image" : "https://bizweb.dktcdn.net/100/089/365/themes/112903/assets/slider-re3.jpg?1532689463258",
-  "telephone" : "19009204",
-  "email" : "info@drbinh.com",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Số 11-13-15 Trần Xuân Soạn",
-    "addressLocality" : "Hà Nội",
-    "addressCountry" : "Việt Nam"
-  },
-  "openingHoursSpecification" : {
-    "@type" : "OpeningHoursSpecification",
-    "dayOfWeek" : {
-      "@type" : "DayOfWeek",
-      "name" : "Mon-Sat"
-    }
-  },
-  "aggregateRating" : {
-    "@type" : "AggregateRating",
-    "ratingValue" : "5",
-    "bestRating" : "5",
-    "worstRating" : "1",
-    "ratingCount" : "1"
-  }
-}
-</script>
-
-
-
-
-<section class="tz-award slider_cover">
-	<button class="award_prev"><i class="fa fa-angle-left"></i></button>
-	<button class="award_next"><i class="fa fa-angle-right "></i></button>
-	<ul class="tz-award-slider">
-
-	</ul> 
-</section><!--end class tz-award-->
-
-
-<script src="js/jquery.flexisel.js" type="text/javascript"></script>
-<!-- End SLider -->
-<div class="clearfix"></div>
-<style>
-	#flexiselDemo3{display:none;margin-bottom:50px}.nbs-flexisel-container{position:relative;max-width:100%}.nbs-flexisel-ul{position:relative;width:99999px;margin:0;padding:0;list-style-type:none;text-align:center}.nbs-flexisel-inner{overflow:hidden;float:left;width:100%}.nbs-flexisel-item{float:left;margin:0;padding:0;cursor:pointer;position:relative;line-height:0}.nbs-flexisel-item img{width:100%;cursor:pointer;position:relative;max-width:100%}.nbs-flexisel-nav-left,.nbs-flexisel-nav-right{position:absolute;cursor:pointer;z-index:100;background:rgba(221,221,221,0.77);border-radius:90%;text-align:center;height:40px;width:40px;opacity:0;transition:all .5s ease-in-out;font-size:34px;line-height:36px!important;color:#333;border:2px solid #fff;box-shadow:0 0 13px 0 #ddd}.nbs-flexisel-nav-left{left:36px;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.nbs-flexisel-nav-left:before{content:"\f104"}.nbs-flexisel-nav-right{right:36px;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.nbs-flexisel-nav-right:before{content:"\f105"}.slider:hover .nbs-flexisel-nav-left,.slider:hover .nbs-flexisel-nav-right{opacity:1}.slider .nbs-flexisel-nav-left:hover,.slider .nbs-flexisel-nav-right:hover{background:rgba(255,0,0,0.57);color:#fff}
-</style>
-<div class="slider">
-	<ul id="flexiselDemo3">
-		<li>
-			<a href="https://drbinh.com/kham-suc-khoe-du-hoc-o-dau-tot"><img alt="kham-suc-khoe-du-hoc" src="images/slider-re1.jpg"></a>
-		</li>
-		<li>
-			<a href="https://drbinh.com/gap-bac-si-truc-tuyen-mien-phi-mua-covid-19"><img alt="bác-sĩ-online" src="images/slider-re2.jpg"></a>
-		</li>
-		<li>
-			<a href="tel:19009204"><img alt="hotline-19009204-cskh-drbinh-2018" src="images/slider-re3.jpg"></a>
-		</li>
-		
-		<li>
-			<a href="https://drbinh.com/don-tuoi-moi-giam-gia-den-20-duy-nhat-trong-nam"><img alt="sinh-nhật-phòng-khám-7-năm" src="images/slider-re4.jpg"></a>
-		</li>
-		
-		
-		
-		<li>
-			<a href="https://drbinh.com/goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong"><img alt="kham-suc-khoe-dinh-ky-doanh-nghiep" src="images/slider-re6.jpg"></a>
-		</li>
-		
-		
-		<li>
-			<a href="https://drbinh.com/tang-50-suat-soi-co-tu-cung-mien-phi-nhan-dip-ngay-phu-nu-8-3"><img alt="Uu-dai-8-3" src="images/slider-re7.jpg"></a>
-		</li>
-		
-		
-		
-		
-
-	</ul> 
-	<div class="clearfix"></div>
-	<script type="text/javascript">
-		$(window).load(function() {
-			$("#flexiselDemo3").flexisel({
-				visibleItems: 1,
-				animationSpeed:100,
-				autoPlay: true,
-				autoPlaySpeed: 3500,            
-				pauseOnHover: true,
-				enableResponsiveBreakpoints: true,
-				responsiveBreakpoints: { 
-					portrait: { 
-						changePoint:480,
-						visibleItems: 1
-					}, 
-					landscape: { 
-						changePoint:640,
-						visibleItems: 1
-					},
-					tablet: { 
-						changePoint:768,
-						visibleItems: 1
-					}
-				},
-				clone:true,
-			});
-
-		});
-	</script>
-</div>
-
-
-<div class="clearfix"></div>
-
-<style>
-	.ngongnu li {
-		list-style: none;
-		display: inline-block;
-	}
-	.ngongnu li img {
-		width: 33px;
-	}
-	ul.ngongnu {
-		display: inline-block;
-		margin: 0;
-	}
-	p.htl {
-		display: inline-block;
-	}
-</style>
-
-		<script type="text/javascript">
-  Bizweb.updateCartFromForm = function(cart, cart_summary_id, cart_count_id) {
-    
-    if ((typeof cart_summary_id) === 'string') {
-      var cart_summary = jQuery(cart_summary_id);
-      if (cart_summary.length) {
-        // Start from scratch.
-        cart_summary.empty();
-        // Pull it all out.        
-        jQuery.each(cart, function(key, value) {
-          if (key === 'items') {
-            
-            var table = jQuery(cart_summary_id);           
-            if (value.length) {  
-              
-              jQuery('<div class="animated_item"><p>Các gói khám đã chọn</p></div>').appendTo(table);       
-              jQuery.each(value, function(i, item) {
-                jQuery('<li class="item even"><a class="product-image" href="'+ item.url +'"><img src="' + Bizweb.resizeImage(item.image, 'small') + '" width="80"></a><div class="detail-item"><div class="product-details"> <a href="javascript:void(0);" onclick="Bizweb.removeItem(' + item.variant_id + ')" title="Remove This Item" class="btn-remove1">Remove This Item</a><p class="product-name"> <a href="'+ item.url +'" title="' + item.name + '">' + item.name + '</a> </p></div><div class="product-details-bottom"> <span class="price">' + Bizweb.formatMoney(item.price, "{{amount_no_decimals_with_comma_separator}}₫") + '</span> <span class="title-desc">Qty:</span> <strong>' + item.quantity + '</strong> </div></div></li>').appendTo(table);
-              });                       
-                jQuery('<div class="top-subtotal">Tổng tiền: <span class="price total_price">0₫</span></div><div class="animated_item actions"><a href="/cart\" class=" view-cart">Gói khám đã chọn</a><a href="/checkout\" class=" btn-checkout">Thanh toán</a></div>').appendTo(table); 
-            }
-            else {
-              jQuery('<div class="animated_item"><p>Không có gói khám nào được chọn.</p></div>').appendTo(table);
-            }
-          }
-        });
-      }
-    }
-	  updateCartDesc(cart);
-  }
-
-  
-  function updateCartDesc(data){
-    var $cartLinkText = $('#open_shopping_cart'),
-		$cartCount = $('#cart-total'),
-	    $cartPrice = Bizweb.formatMoney(data.total_price, "{{amount_no_decimals_with_comma_separator}}₫");		
-    switch(data.item_count){
-      case 0:
-        $cartLinkText.attr('data-amount','0');
-		$cartCount.text('0');
-        break;
-      case 1:
-        $cartLinkText.attr('data-amount','1');
-		$cartCount.text('1');
-        break;
-      default:
-        $cartLinkText.attr('data-amount', data.item_count);
-		$cartCount.text(data.item_count);
-        break;
-    }
-	 $('.total_price').html($cartPrice);
-  }    
-</script>
-		<div class="fvc ">
-			
-			<!-- Slider -->
- 
-
-<h1><div style="font-size: 1px; color: #ffffff;"> Phong kham da khoa Dr.Binh Tele_Clinic</div></h1>
-
-<section class="tz-about theme-gray">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<div class="tz-about-item">
-					<div class="co-nho icon11"></div>
-					<div class="tz-about-ds hot-line-index">
-						<h3>TỔNG ĐÀI TƯ VẤN</h3>
-						<p><a href="tel:tel:<strong>19009204</strong>"><strong>1900 9204</strong></a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<a class="tz-about-item" target="_blank" href="https://www.google.com/maps/place/Ph%C3%B2ng+kh%C3%A1m+%C4%91a+khoa+Dr.+Binh+Tele_Clinic/@21.017644,105.8521745,17.5z/data=!4m5!3m4!1s0x0:0x5c0d520e01208578!8m2!3d21.0171702!4d105.8551329" title="Trần xuân Soạn , hai bà Trưng, Hà Nội">
-					<div class="co-nho icon12"></div>
-					<div class="tz-about-ds">
-						<h3>ĐỊA CHỈ</h3>
-						<p>11-13-15 Trần Xuân Soạn <br>Q.Hai Bà Trưng - HN</p>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<a class="tz-about-item goctuvan" href="/dat-lich-kham" title="tư vấn hỏi đáp" target="_blank">
-					<div class="co-nho icon13"></div>
-					<div class="tz-about-ds">
-						<h3>Đặt lịch khám</h3>
-						<p>MAKE APPOINTMENT</p>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
-</section><!--end class tz-about-->
-
-
-<section class="tz-introduce theme-white">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				
-				<div class="cacnganh">
-					<ul class="main-sub">
-					
-					
-					
-					<li><a href="/cac-goi-kham-suc-khoe" alt="Các gói khám sức khỏe" class="style1">Các gói khám sức khỏe	</a>					
-				
-						</li>
-					
-					
-					
-					<li><a href="/bao-hiem-bao-lanh" alt="Bảo hiểm y tế - Bảo lãnh viện phí" class="style2">Bảo hiểm y tế - Bảo lãnh viện phí	</a>					
-				
-						</li>
-					
-					
-					
-					<li><a href="/dich-vu-medi-office-y-te-co-quan" alt="Dịch vụ Y tế Cơ quan – MEDI-OFFICE" class="style3">Dịch vụ Y tế Cơ quan – MEDI-OFFICE	</a>					
-				
-						</li>
-					
-					
-					
-					<li><a href="https://medihome.com.vn/" alt="Dịch vụ y tế Gia đình - MEDI-HOME" class="style4">Dịch vụ y tế Gia đình - MEDI-HOME	</a>					
-				
-						</li>
-					
-					
-					
-					<li><a href="/thiet-bi-y-te-gia-dinh" alt="Thiết bị y tế gia đình" class="style5">Thiết bị y tế gia đình	</a>					
-				
-						</li>
-					
-					
-					
-					<li><a href="/tam-soat-ung-thu-som" alt="Tầm soát ung thư" class="style6">Tầm soát ung thư	</a>					
-				
-						</li>
-					
-					
-					
-					<li><a href="/thu-vien-anh-1" alt="Thư viện hình ảnh" class="style7">Thư viện hình ảnh	</a>					
-				
-						</li>
-					
-					
-					
-					<li><a href="/thu-vien-video" alt="Thư viện Video" class="style8">Thư viện Video	</a>					
-				
-						</li>
-					
-					
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 tz-award ykhoa">
-
-				<div class="row">
-					<button class="award_prev2 lf"><i class="fa fa-angle-left"></i></button>
-					<button class="award_next2 rt"><i class="fa fa-angle-right "></i></button>
-					<ul class="tz-award-slider2">
-						<li>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa1.png" alt="noi-khoa">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="https://drbinh.bizwebvietnam.net/noi-tong-hop" title="Khoa Nội">Khoa Nội</a></h3>
-										<div class="mota">
-											Chuyên khoa Nội tổng quát tại phòng khám đa khoa Dr. Binh Tele_Clinic có chức năng khám bệnh, chẩn đoán, kê đơn điều trị và tư vấn các bệnh nội khoa bao gồm: tim mạch, hô hấp, tiêu hoá, gan mật, thận - tiết niệu, thần kinh, cơ xương khớp, miễn dịch - dị ứng, . .
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa2.png" alt="ngoai-khoa">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="http://drbinh.com/khoa-ngoai" title="Khoa Ngoại">Khoa Ngoại</a></h3>
-										<div class="mota">
-											Ngoại khoa của phòng khám đa khoa Dr. Binh Tele_Clinic là nơi tiếp nhận các trường hợp cấp cứu, khám chữa các bệnh lý về ngoại khoa theo phân cấp.
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa3.png" alt="san-phu-khoa">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="http://drbinh.bizwebvietnam.net/san-phu-khoa" title="Sản - Phụ Khoa">Sản - Phụ Khoa</a></h3>
-										<div class="mota">
-											Tại phòng khám đa khoa Dr. Binh Tele_Clinic, chúng tôi cũng cung cấp các dịch vụ trọn gói và thủ thuật khác nhau nhằm điều trị hiệu quả, đảm bảo nhu cầu chăm sóc sức khỏe cho phụ nữ.
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa4.png" alt="nhi-khoa">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="https://drbinh.com/nhi-khoa" title="Khoa Nhi">Khoa Nhi</a></h3>
-										<div class="mota">
-											Tại phòng khám đa khoa Dr. Binh Tele_Clinic, hồ sơ bệnh án của bé được lưu trữ và bảo mật theo tiêu chuẩn quốc tế trên phần mềm bệnh án điện tử hiện đại.
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="box-ck">
-								<div class="row">
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa5.png" alt="da-lieu">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href title="Da Liễu">Da Liễu</a></h3>
-										<div class="mota">
-											Chuyên khoa da liễu Phòng khám đa khoa Dr.Binh Tele_Clinic chẩn đoán và điều trị các bệnh ngoài da thường gặp cũng như tư vấn phương pháp chăm sóc các vấn đề về da. 
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa6.png" alt="nhan-khoa">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="http://drbinh.bizwebvietnam.net/mat" title="Khoa Mắt">Khoa Mắt</a></h3>
-										<div class="mota">
-											Phòng khám Mắt tại phòng khám đa khoa Dr. Binh Tele_Clinic được trang bị thiết bị hiện đại, đồng bộ của hãng Shin Nippon, hãng sản xuất thiết bị mắt hàng đầu tại Nhật Bản.
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa7.png" alt="nha-khoa">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="http://drbinh.bizwebvietnam.net/rang-ham-mat" title="Răng - Hàm - Mặt">Răng - Hàm - Mặt</a></h3>
-										<div class="mota">
-											Chuyên khoa Răng - Hàm - Mặt tại phòng khám đa khoa Dr. Binh Tele_Clinic cung cấp các dịch vụ chăm sóc, khám và điều trị các bệnh về răng miệng như Nha khoa tổng quát, Nha khoa trẻ em, Nha khoa thẩm mỹ…
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa8.png" alt="khoa-tai-mui-hong">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="http://drbinh.bizwebvietnam.net/tai-mui-hong" title="Tai - Mũi - Họng">Tai - Mũi - Họng</a></h3>
-										<div class="mota">
-											Chuyên Khoa Tai mũi họng của phòng khám đa khoa Dr. Binh Tele_Clinic được lắp đặt trang thiết bị đồng bộ, hiện đạị , kết hợp với môi trường khám bệnh  thân thiện để đảm bảo sự hài lòng của bệnh nhân.
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa9.png" alt="vat-li-tri-lieu">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="http://drbinh.bizwebvietnam.net/vat-ly-tri-lieu-hoi-phuc-chuc-nang" title="Vật Lý Trị Liệu - Phục Hồi Chức Năng">Vật Lý Trị Liệu - Phục Hồi Chức Năng</a></h3>
-										<div class="mota">
-											Khoa Vật lý trị liệu – Phục hồi chức năng tại phòng khám đa khoa Dr. Binh Tele_Clinic được trang bị máy móc hiện đại, đồng bộ của hãng ITO (Nhật Bản).
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa10.png" alt="xet-nghiem">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="http://drbinh.bizwebvietnam.net/xet-nghiem" title="Xét Nghiệm">Xét Nghiệm</a></h3>
-										<div class="mota">
-											Tại phòng khám đa khoa Dr. Binh Tele_Clinic, khoa Xét nghiệm sở hữu những máy móc tự đông, tối tân nhất, chất lượng nhất và là máy móc của chính hãng.
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa11.png" alt="chan-doan-hinh-anh">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="http://drbinh.bizwebvietnam.net/chuan-doan-hinh-anh" title="Chẩn Đoán Hình Ảnh">Chẩn Đoán Hình Ảnh</a></h3>
-										<div class="mota">
-											Chuyên khoa chẩn đoán hình ảnh của phòng khám đa khoa Dr. Binh  Tele_clinic hỗ trợ về chuẩn đoán thuộc lĩnh vực hình ảnh, cũng như một số công việc về điều trị can thiệp.
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa12.png" alt="noi-tieu-hoa">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="http://drbinh.com/noi-soi-tieu-hoa" title="Nội Soi Tiêu Hóa">Nội Soi Tiêu Hóa</a></h3>
-										<div class="mota">
-											Với đội ngũ bác sĩ chuyên khoa sâu về tiêu hóa, Phòng khám có thế mạnh trong việc chẩn đoán và điều trị các bệnh về Tiêu hóa (Dạ dày, đại tràng, Gan mật). 
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="box-ck">
-								<div class>
-									<div class="col-xs-5 col-sm-4">
-										<img src="images/khoa13.png" alt="bac-si-gia-dinh">
-									</div>
-									<div class="col-xs-7 col-sm-8">
-										<h3><a href="http://drbinh.bizwebvietnam.net/dich-vu-bac-si-gia-dinh-cham-soc-suc-khoe-247" title="Bác Sĩ Gia Đình">Bác Sĩ Gia Đình</a></h3>
-										<div class="mota">
-											Dịch vụ bác sĩ gia đình tại phòng khám đa khoa Dr. Binh Tele_Clinic vận dụng linh hoạt quy trình chăm sóc sức khỏe tại nhà của các nước tiên tiến trên thế giới để phù hợp với nhu cầu cũng như tập quán người Việt.
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div><!--end class row-->
-	</div><!--end class container-->
-</section><!--end class tz-introduce-->
-
-
-
-<!--Box bac sĩ-->
-
-
-<div style="background: #f0f5f8;padding-bottom: 20px;">
-	<section class="tz-award icon-bas">
-		<div class="container">
-			<div style="text-center text-bs">
-				<p class="f17"><a href="/cac-bac-si-cua-dr-binh-tele-clinic">Gặp gỡ bác sĩ của <strong>Dr Binh Tele_Clinic</strong></a></p>
-				<p class="f13">Đội ngũ bác sĩ nhiều năm kinh nghiệm, chuyên môn cao, luôn đặt bệnh nhân lên vị trí hàng đầu</p>
-			</div>
-
-			<ul class="tz-award-slider1">
-				
-				<div class="box-bs">
-					<a href="/tien-si-bac-si-cao-cap-thay-thuoc-nhan-dan-vu-quoc-binh" style="display:block">
-						<span class="box-anhbs"><img src="images/20-dr-binh.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/bac-si-nguyen-thuy-lan" style="display:block">
-						<span class="box-anhbs"><img src="images/1-bs-lan.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/bsckii-bscc-thay-thuoc-uu-tu-chu-xuan-anh" style="display:block">
-						<span class="box-anhbs"><img src="images/22-bsi-xuan-anh.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/bac-si-dang-tran-chien" style="display:block">
-						<span class="box-anhbs"><img src="images/4-bschien.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/bac-sy-dang-xuan-tin" style="display:block">
-						<span class="box-anhbs"><img src="images/3-bstin.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/bsck-ii-nguyen-thi-van-anh" style="display:block">
-						<span class="box-anhbs"><img src="images/23-dr-van-anh-mat.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/tien-si-bac-si-pham-ngoc-dong" style="display:block">
-						<span class="box-anhbs"><img src="images/7-bs-dong.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/bsck-ii-kim-thi-phuc" style="display:block">
-						<span class="box-anhbs"><img src="images/19-bs-phuc-san.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/bac-si-le-khanh-dung" style="display:block">
-						<span class="box-anhbs"><img src="images/10-bs-dubg.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/bsck-i-nguyen-manh-loi" style="display:block">
-						<span class="box-anhbs"><img src="images/15-bs-loi.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/bac-si-do-thi-ngoc-hoa" style="display:block">
-						<span class="box-anhbs"><img src="images/6-bs-hoa-san.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/bac-si-hoang-minh-hiep" style="display:block">
-						<span class="box-anhbs"><img src="images/9-bs-hiep.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/thac-si-nguyen-xuan-thao" style="display:block">
-						<span class="box-anhbs"><img src="images/24-dr-thao-xn.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/thac-si-bsck-nguyen-hong-hoa" style="display:block">
-						<span class="box-anhbs"><img src="images/27-ths-hong-hoa-sieu-am.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-				<div class="box-bs">
-					<a href="/thac-si-nguyen-thi-khanh" style="display:block">
-						<span class="box-anhbs"><img src="images/18-bs-khanh-cdha.jpg" alt="bac-si-gia-dinh"></span>
-						<div class="clearfix"></div>
-					</a>
-				</div>
-				
-
-			</ul>
-			<button class="award_prev1"><i class="fa fa-angle-left"></i></button>
-			<button class="award_next1"><i class="fa fa-angle-right "></i></button>
-		</div><!--end class container-->
-
-	</section><!--end class tz-award-->
-</div>
-
-
-<script>
-	$(document).ready(function() {
-		$("#owl-demo-news-hot").owlCarousel({
-
-			autoPlay: 3000, //Set AutoPlay to 3 seconds
-
-			items : 2,
-			itemsDesktop : [1199,2],
-			itemsDesktopSmall : [1024,2],
-			itemsTablet:[768,1],
-			itemsMobile:[320,1],
-			navigation : true,
-			pagination : false,
-		});
-		$("#owl-demo-product-hot").owlCarousel({
-
-			autoPlay: 8000, //Set AutoPlay to 3 seconds
-
-			items : 4,
-			itemsDesktop : [1199,3],
-			itemsDesktopSmall : [979,3],
-			navigation : true,
-			pagination : false,
-		});
-		$("#owl-demo-author").owlCarousel({
-
-			autoPlay: 8000, //Set AutoPlay to 3 seconds
-
-			items : 2,
-			itemsDesktop : [1199,3],
-			itemsDesktopSmall : [979,3],
-			navigation : true,
-			pagination : false,
-		});
-
-	});
-</script>
-
-
-
-<section class="tz-our-blog theme-white">
-	<h2 class="tz-title-3"><strong>Tin tức - Sự kiện</strong> nổi bật</h2>
-	<p>Cập nhật những tin tức mới nhất của phòng khám và các thông tin sức khỏe hàng ngày</p>
-	<div class="container">
-		<div class="row">
-			
-			
-			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 padding-right0">
-				<div class="our-blog-item1">
-					<div class="blog-thumb1">
-						
-						<a href="/tang-50-suat-soi-co-tu-cung-mien-phi-nhan-dip-ngay-phu-nu-8-3"><img src="images/210303-chuong-trinh-8-3-03.jpg" alt="Tặng 50 suất Soi Cổ tử cung miễn phí nhân dịp ngày Phụ nữ 8/3"></a>
-
-						
-					</div>
-					<div class="entry-ourblog1">
-						<h3><a href="/tang-50-suat-soi-co-tu-cung-mien-phi-nhan-dip-ngay-phu-nu-8-3">Tặng 50 suất Soi Cổ tử cung miễn phí nhân dịp ngày Phụ nữ 8/3</a></h3>
-
-						
-						<p>     Nhân dịp ngày Quốc tế Phụ nữ 8/3, Phòng khám đa khoa Dr.Binh Tele_Clinic dành tặng món quà tri ân 50 suất Soi cổ tử cung MIỄN PHÍ cho tất cả chị em. Thời gian áp dụng từ ngày 6/3-12/3/2021.  ĐĂNG KÝ TẠI ĐÂY.      
-    ...</p>
-						
-						<a class="tz-readmore" href="/tang-50-suat-soi-co-tu-cung-mien-phi-nhan-dip-ngay-phu-nu-8-3">Xem thêm <i class="fa fa-caret-right"></i></a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-			
-			
-			
-			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-				<div class="our-blog-item2">
-					<div class="blog-thumb2">
-						
-						<a href="/toi-cam-thay-suc-khoe-cua-toi-tot-len-rat-nhieu"><img src="images/anh-bia-bai-viet-honna-tetsuji-drbinh-1.jpg" alt="“Tôi cảm thấy sức khoẻ của tôi tốt lên rất nhiều”"></a>
-
-						
-					</div>
-					<div class="entry-ourblg2">
-						<h3><a href="/toi-cam-thay-suc-khoe-cua-toi-tot-len-rat-nhieu">“Tôi cảm thấy sức khoẻ của tôi tốt lên rất nhiều”</a></h3>
-						<span class="createby" style="display:none">
-							Đăng bởi <a href="#">Huyền Trang</a>
-						</span>
-						
-						<p>       Maestro Tetsuji Honna    từng là tên tuổi được biết đến tại Nhật Bản - đất nước có nền giao hưởng...</p>
-						
-						<a class="tz-readmore" href="/toi-cam-thay-suc-khoe-cua-toi-tot-len-rat-nhieu">Xem thêm <i class="fa fa-caret-right"></i></a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-			
-			
-			
-			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-				<div class="our-blog-item2">
-					<div class="blog-thumb2">
-						
-						<a href="/truyen-hinh-truc-tiep-lam-the-nao-de-biet-minh-bi-ung-thu"><img src="images/21-3-7-ung-thu-lcd.jpg" alt="[Truyền hình trực tiếp] LÀM THẾ NÀO ĐỂ BIẾT MÌNH BỊ UNG THƯ"></a>
-
-						
-					</div>
-					<div class="entry-ourblg2">
-						<h3><a href="/truyen-hinh-truc-tiep-lam-the-nao-de-biet-minh-bi-ung-thu">[Truyền hình trực tiếp] LÀM THẾ NÀO ĐỂ BIẾT MÌNH BỊ UNG THƯ</a></h3>
-						<span class="createby" style="display:none">
-							Đăng bởi <a href="#">Huyền Trang</a>
-						</span>
-						
-						<p>    
-         Phát hiện sớm ung thư là việc làm quan trọng để có phương án điều trị kịp...</p>
-						
-						<a class="tz-readmore" href="/truyen-hinh-truc-tiep-lam-the-nao-de-biet-minh-bi-ung-thu">Xem thêm <i class="fa fa-caret-right"></i></a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-			
-			
-			
-			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-				<div class="our-blog-item2">
-					<div class="blog-thumb2">
-						
-						<a href="/nhung-dieu-can-biet-khi-tiem-phong-vac-xin-ngua-covid-19"><img src="images/tiem-phong-vac-xin-phong-ngua-covid-19-2021.jpg" alt="Những điều cần biết khi tiêm phòng vắc-xin ngừa COVID-19"></a>
-
-						
-					</div>
-					<div class="entry-ourblg2">
-						<h3><a href="/nhung-dieu-can-biet-khi-tiem-phong-vac-xin-ngua-covid-19">Những điều cần biết khi tiêm phòng vắc-xin ngừa COVID-19</a></h3>
-						<span class="createby" style="display:none">
-							Đăng bởi <a href="#">Huyền Trang</a>
-						</span>
-						
-						<p>       Được sự hỗ trợ của Liên minh COVAX và sự chủ động của một doanh nghiệp trong nước, lô vắc-xin ngừa COVID-19 đầu...</p>
-						
-						<a class="tz-readmore" href="/nhung-dieu-can-biet-khi-tiem-phong-vac-xin-ngua-covid-19">Xem thêm <i class="fa fa-caret-right"></i></a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-			
-			
-		</div><!--end class row-->
-		
-	</div><!--end class container-->
-</section><!--end class tz-our-blog-->
-
-
-<section class="video-home">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<iframe width="1140" height="641" src="kR0hDO0jvho.html" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-
-
-<section class="tz-why-choose">
-	<h2 class="tz-title-2">
-		<span>LÍ DO BẠN NÊN CHỌN CHÚNG TÔI</span>
-	</h2>
-	<div class="tz-choose-content parallax">
-		<div class="container">
-			<div class="row">
-				<!--dòng 1-->
-				<div class="col-lg-3 colg-md-3 col-sm-3 col-xs-12">
-					<ul class="tz-collection-default">
-						<li class="why_detail">
-							<figure class="item-collection">
-								<div class="titlewwh">
-									<img src="images/reason_1_img.png" alt="bac-si-giau-kinh-nghiem">
-									<h3>Bác sĩ giỏi, giàu kinh nghiệm:</h3>
-									<div class="clearfix"></div>
-								</div>
-								<figcaption class="bg1">
-									<h4 class="title_detail_why">Bác sĩ giỏi, giàu kinh nghiệm:</h4>
-									<p>• Đội ngũ Giáo sư, bác sỹ giàu kinh nghiệm đã và đang công tác tại các Bệnh viện lớn.<br>
-• Tư vấn trước và sau khi khám tùy theo nhu cầu của đơn vị.</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li class="why_detail">
-							<figure class="item-collection">
-								<div class="titlewwh">
-									<img src="images/reason_5_img.png" alt="chong-nhiem-khuan">
-									<h3>Chống nhiễm khuẩn tốt:</h3>
-									<div class="clearfix"></div>
-								</div>
-								<figcaption class="bg5">
-									<h4 class="title_detail_why">Chống nhiễm khuẩn tốt:</h4>
-									<p>• Quy trình phòng chống nhiễm khuẩn được áp dụng nghiệm ngặt, phòng chống lây nhiễm chéo.<br>
-• Toàn bộ các thiết bị dụng cụ được khử khuẩn, đóng gói hút chân không đảm bảo vô khuẩn.</p>
-								</figcaption>
-							</figure>
-						</li>
-
-					</ul>
-				</div>
-				<!--dòng 1-->
-				<div class="col-lg-3 colg-md-3 col-sm-3 col-xs-12">
-					<ul class="tz-collection-default">
-						<li class="why_detail">
-							<figure class="item-collection">
-								<div class="titlewwh">
-									<img src="images/reason_2_img.png" alt="tiet-kiem-chi-phi">
-									<h3>Chi phí hợp lý:</h3>
-									<div class="clearfix"></div>
-								</div>
-								<figcaption class="bg2">
-									<h4 class="title_detail_why">Chi phí hợp lý:</h4>
-									<p>• Cung cấp nhiều gói khám khác nhau phù hợp với đặc thù và nhu cầu tổ chức, doanh nghiệp.<br>
-• Dịch vụ chất lượng cao nhưng với chi phí hợp lý.<br>
-• Người nhà của CBNV được hỗ trợ giá như CBNV của đơn vị.<br>
-• Nhiều ưu đãi cho các dịch vụ phát sinh ngoài gói khám.</p>
-								</figcaption>
-							</figure>
-						</li>
-
-						<li class="why_detail">
-							<figure class="item-collection">
-								<div class="titlewwh">
-									<img src="images/reason_6_img.png" alt="trang-thiet-bi-hien-dai">
-									<h3>Cơ sở vật chất hiện đại:</h3>
-									<div class="clearfix"></div>
-								</div>
-								<figcaption class="bg6">
-									<h4 class="title_detail_why">Cơ sở vật chất hiện đại:</h4>
-									<p>• Cơ sở vật chất, các thiết bị máy móc mới toàn bộ và được bảo dưỡng thường xuyên.<br>
-• Máy khám ngoại tuyến hiện đại, cơ động đến mọi nơi.<br>
-• Đáp ứng được số lượng bệnh nhân lên tới 3000 lượt/ngày tùy theo gói khám.</p>
-								</figcaption>
-							</figure>
-						</li>
-
-					</ul>
-				</div>
-				<!--dòng 1-->
-
-
-				<div class="col-lg-3 colg-md-3 col-sm-3 col-xs-12">
-					<ul class="tz-collection-default">
-						<li class="why_detail">
-							<figure class="item-collection">
-								<div class="titlewwh">
-									<img src="images/reason_3_img.png" alt="thu-tuc-nhanh-chong">
-									<h3>Quy trình khám nhanh gọn: </h3>
-									<div class="clearfix"></div>
-								</div>
-								<figcaption class="bg3">
-									<h4 class="title_detail_why">Quy trình khám nhanh gọn: </h4>
-									<p>• Quy trình khám sức khỏe được tin học hóa qua phần mềm, đảm bảo rõ ràng, hợp lý, khoa học, thời gian khám ngắn nhất.</p>
-								</figcaption>
-							</figure>
-						</li>
-
-						<li class="why_detail">
-							<figure class="item-collection">
-								<div class="titlewwh">
-									<img src="images/reason_7_img.png" alt="than-thien">
-									<h3>Môi trường thân thiện văn minh:</h3>
-									<div class="clearfix"></div>
-								</div>
-								<figcaption class="bg7">
-									<h4 class="title_detail_why">Môi trường thân thiện văn minh:</h4>
-									<p>• Không gian và môi trường khám chữa bệnh thân thiện, sạch sẽ, lịch sự.</p>
-								</figcaption>
-							</figure>
-						</li>
-
-					</ul>
-				</div>
-				<!--dòng 1-->
-				<div class="col-lg-3 colg-md-3 col-sm-3 col-xs-12">
-					<ul class="tz-collection-default">
-						<li class="why_detail">
-							<figure class="item-collection">
-								<div class="titlewwh">
-									<img src="images/reason_4_img.png" alt="xet-nghiem-chinh-xac">
-									<h3>Kết quả chính xác:</h3>
-									<div class="clearfix"></div>
-								</div>
-								<figcaption class="bg4">
-									<h4 class="title_detail_why">Kết quả chính xác:</h4>
-									<p>• Đảm bảo trả kết quả trong thời gian sớm nhất với hệ thống phân loại chính xác và đầy đủ.<br>
-• Kết quả được lưu giữ cả bản cứng và trên phần mềm hệ thống, tiện lợi cho việc theo dõi khi khách hàng đến khám những lần tiếp theo.<br>
-• Đối với các đơn vị khám đoàn, báo cáo kết quả được phân loại theo phòng, ban, theo tên để dễ dàng tra cứu.</p>
-								</figcaption>
-							</figure>
-						</li>
-						<li class="why_detail">
-							<figure class="item-collection">
-								<div class="titlewwh">
-									<img src="images/reason_8_img.png" alt="dia-diem-li-tuong-thuan-loi">
-									<h3>Vị trí thuận tiện:</h3>
-									<div class="clearfix"></div>
-								</div>
-								<figcaption class="bg8">
-									<h4 class="title_detail_why">Vị trí thuận tiện:</h4>
-									<p>• Nằm ngay trung tâm Hà Nội với hầm đỗ ô tô và xe máy miễn phí.<br>
-• Khám tại đơn vị theo nhu cầu giúp tiết kiệm thời gian, chi phí đi lại cho khách hàng.</p>
-								</figcaption>
-							</figure>
-						</li>
-					</ul>
-				</div>
-			</div><!--end class row-->
-		</div><!--end class container-->
-	</div><!--end class parallax-->
-</section><!--end class tz-why-choose-->
-
-
-
-<div class="tz-partner theme-gray text-center khachhang" style="position:relative">
-	<div style="background: #f0f5f8;">
-		<div class="container" style="max-width:1000px">
-
-			<div style="text-center text-bs">
-				<p class="f17">Khách hàng nói gì về <strong>Dr Binh Tele_Clinic</strong></p>
-				<p class="f13">Đội ngũ bác sĩ nhiều năm kinh nghiệm, chuyên môn cao, luôn đặt bệnh nhân lên vị trí hàng đầu</p>
-			</div>
-			<ul class="partner-slider">
-				
-				<li class="yk-kh">
-					<img src="images/partler1.png" alt="partler4">
-					<p class="noidung-k">Mình thấy phòng khám có dịch vụ tốt, làm việc nhanh chóng</p>
-					<h4 class="tenkh"><span>Anh Hoàng Thanh Tùng</span></h4>
-				</li>
-				
-				
-				<li class="yk-kh">
-					<img src="images/partler2.png" alt="partler4">
-					<p class="noidung-k">Tôi rất hài lòng về chất lượng dịch vụ, các trang thiết bị hiện đại. Tôi cũng thấy rất thoải mái với thái độ tận tụy, nhiệt tình của đội ngũ y bác sỹ cũng như quy trình, thủ tục khám nhanh gọn của Phòng khám.</p>
-					<h4 class="tenkh"><span>Anh Harry Peter Stutton - Quốc tịch Canada</span></h4>
-				</li>
-				
-				
-				<li class="yk-kh">
-					<img src="images/partler3.png" alt="partler4">
-					<p class="noidung-k">Tuyệt vời về chất lượng và thái độ.</p>
-					<h4 class="tenkh"><span>Giáo sư Nguyễn Lân Dũng</span></h4>
-				</li>
-				
-				
-				<li class="yk-kh">
-					<img src="images/partler4.png" alt="partler4">
-					<p class="noidung-k">Mình thấy rất an tâm và thoải mái khi đi khám ngoại tuyến vì các khu vực khám Nội, Siêu âm, Phụ khoa,… đều được căng nhà bạt cẩn thận, kín đáo.</p>
-					<h4 class="tenkh"><span>Chị Vũ Thu Huyền</span></h4>
-				</li>
-				
-				
-				<li class="yk-kh">
-					<img src="images/partler5.png" alt="partler4">
-					<p class="noidung-k">Chú thấy Phòng khám đa khoa Dr. Binh Tele_Clicnic bố trí và sắp xếp các hoạt động trong khám ngoại tuyến rất hợp lý. Chú cũng rất ấn tượng với thái độ niềm nở và nhiệt tình của các y bác sĩ và cán bộ phòng khám.</p>
-					<h4 class="tenkh"><span>Chú Trần Đăng Sơn</span></h4>
-				</li>
-				
-				
-				<li class="yk-kh">
-					<img src="images/partler6.png" alt="partler4">
-					<p class="noidung-k">Cô được các bạn giới thiệu sang khám. Cô thấy rất thoải mái, cán bộ phòng khám làm việc nhanh, chuyên nghiệp, nhiệt tình. Cô sẽ giới thiệu cho người thân, bạn bè chuyển BHYT về phòng khám.</p>
-					<h4 class="tenkh"><span>Cô Bùi Thị Thu</span></h4>
-				</li>
-				
-				
-				<li class="yk-kh">
-					<img src="images/partler7.png" alt="partler4">
-					<p class="noidung-k">Các y bác sĩ, cán bộ phòng khám rất nhiệt tình, nhẹ nhàng, các trang thiết bị cũng mới và hiện đại, nên tôi rất yên tâm khi khám bệnh tại đây.</p>
-					<h4 class="tenkh"><span>Chị Bạch Tố Trinh</span></h4>
-				</li>
-				
-				
-				<li class="yk-kh">
-					<img src="images/partler8.png" alt="partler4">
-					<p class="noidung-k">Các bạn điều dưỡng và y bác sĩ ở đây rất nhiệt tình và mình cảm thấy dịch vụ khám chữa bệnh rất tốt</p>
-					<h4 class="tenkh"><span>Chị Phạm Huyền Châu</span></h4>
-				</li>
-				
-				
-				<li class="yk-kh">
-					<img src="images/partler9.png" alt="partler4">
-					<p class="noidung-k">Thủ tục nhanh gọn, các bạn điều dưỡng rất nhiệt tình và rất niềm nở</p>
-					<h4 class="tenkh"><span>Anh Nguyễn Xuân Đức</span></h4>
-				</li>
-				
-				
-				<li class="yk-kh">
-					<img src="images/partler10.png" alt="partler4">
-					<p class="noidung-k">Tôi thấy mọi dịch vụ ở đây đều rất tuyệt. Hy vọng rằng Phòng khám sẽ tiếp tục cung cấp những dịch vụ tốt như vậy.</p>
-					<h4 class="tenkh"><span>Anh Dương Duy Khanh</span></h4>
-				</li>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-			</ul>
-			<button class="award_prev3"><i class="fa fa-angle-left"></i></button>
-			<button class="award_next3"><i class="fa fa-angle-right "></i></button>
-		</div>
-	</div>
-</div><!--end class partner-->
-
-
-
-<section class="tz-lastest-shop theme-white">
-	<h2 class="tz-title-3">
-		Giới thiệu sản phẩm-dịch vụ tốt cho bạn
-	</h2>
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 laster-shop-item">
-				 
- 
- 
- 
- 
-<div class="pc-input-checkbox-5822343" style="display: none">
-<input type="checkbox" id="checkbox-goi-kham-suc-khoe-ca-nhan-gs01" class="checkbox-add-compare checkbox-goi-kham-suc-khoe-ca-nhan-gs01" image="https://bizweb.dktcdn.net/100/089/365/products/kham-suc-khoe-dinh-ky-2.jpg?v=1522485576000" value="goi-kham-suc-khoe-ca-nhan-gs01" alias="goi-kham-suc-khoe-ca-nhan-gs01" name="GÓI KSK CÁ NHÂN - CƠ BẢN<br>GS-01" price="0₫"> <label for="checkbox-goi-kham-suc-khoe-ca-nhan-gs01">Thêm vào so sánh</label> 
- </div><div class="laster-thumb">
-	<div class="shop-icon-data">
-		
-	</div>
-	<a href="/goi-kham-suc-khoe-ca-nhan-gs01"><img src="images/kham-suc-khoe-dinh-ky-2.jpg" alt="GÓI KSK CÁ NHÂN - CƠ BẢN<br>GS-01"></a>
-	
-	<form action="/cart/add" method="post" class="variants" id="product-actions-5822343" enctype="multipart/form-data">
-		<span class="tz-shop-meta">
-			<a href="/goi-kham-suc-khoe-ca-nhan-gs01" class="tzheart"><i class="fa fa-eye"></i></a>
-			<!--<a href="javascript:void(0);" style="cursor: no-drop;" class="tz-view-more2"><span>Liên hệ</span></a>-->
-		</span>
-	</form>
-	
-	
-
-
-
-
-<input type="checkbox" id="checkbox-goi-kham-suc-khoe-ca-nhan-gs01" class="checkbox-add-compare checkbox-goi-kham-suc-khoe-ca-nhan-gs01" image="https://bizweb.dktcdn.net/100/089/365/products/kham-suc-khoe-dinh-ky-2.jpg?v=1522485576000" value="goi-kham-suc-khoe-ca-nhan-gs01" alias="goi-kham-suc-khoe-ca-nhan-gs01" name="GÓI KSK CÁ NHÂN - CƠ BẢN<br>GS-01" price="0₫"> <label for="checkbox-goi-kham-suc-khoe-ca-nhan-gs01">Thêm vào so sánh</label>
-
-
-</div>
-<h3><a href="/goi-kham-suc-khoe-ca-nhan-gs01">GÓI KSK CÁ NHÂN - CƠ BẢN<br>GS-01</a></h3>
-
-<small>Liên hệ</small>
-
-
-
-<script> 
-if(typeof window.listProductId == 'undefined' ){ 
-window.listProductId ={}; 
- }
- var id = 5822343; 
-window.listProductId[id] = 1; 
- $(document).ready(function(){
- if(typeof window.append == 'undefined' ){
- for(var name in window.listProductId){
-var pcInputCheckbox = $(".pc-input-checkbox-"+name).html(); 
- $(".price-box[checkbox-class=price-box-"+name+"]").after(pcInputCheckbox);
-} 
- window.append =false;
-} 
-}); 
-</script>
-			</div>
-			
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 laster-shop-item">
-				 
- 
- 
- 
- 
-<div class="pc-input-checkbox-17262399" style="display: none">
-<input type="checkbox" id="checkbox-goi-kham-suc-khoe-du-hoc" class="checkbox-add-compare checkbox-goi-kham-suc-khoe-du-hoc" image="https://bizweb.dktcdn.net/100/089/365/products/cover-goi-ksk-du-hoc-03.jpg?v=1585046613000" value="goi-kham-suc-khoe-du-hoc" alias="goi-kham-suc-khoe-du-hoc" name="GÓI KHÁM SỨC KHỎE DU HỌC" price="0₫"> <label for="checkbox-goi-kham-suc-khoe-du-hoc">Thêm vào so sánh</label> 
- </div><div class="laster-thumb">
-	<div class="shop-icon-data">
-		
-	</div>
-	<a href="/goi-kham-suc-khoe-du-hoc"><img src="images/cover-goi-ksk-du-hoc-03.jpg" alt="GÓI KHÁM SỨC KHỎE DU HỌC"></a>
-	
-	<form action="/cart/add" method="post" class="variants" id="product-actions-17262399" enctype="multipart/form-data">
-		<span class="tz-shop-meta">
-			<a href="/goi-kham-suc-khoe-du-hoc" class="tzheart"><i class="fa fa-eye"></i></a>
-			<!--<a href="javascript:void(0);" style="cursor: no-drop;" class="tz-view-more2"><span>Liên hệ</span></a>-->
-		</span>
-	</form>
-	
-	
-
-
-
-
-<input type="checkbox" id="checkbox-goi-kham-suc-khoe-du-hoc" class="checkbox-add-compare checkbox-goi-kham-suc-khoe-du-hoc" image="https://bizweb.dktcdn.net/100/089/365/products/cover-goi-ksk-du-hoc-03.jpg?v=1585046613000" value="goi-kham-suc-khoe-du-hoc" alias="goi-kham-suc-khoe-du-hoc" name="GÓI KHÁM SỨC KHỎE DU HỌC" price="0₫"> <label for="checkbox-goi-kham-suc-khoe-du-hoc">Thêm vào so sánh</label>
-
-
-</div>
-<h3><a href="/goi-kham-suc-khoe-du-hoc">GÓI KHÁM SỨC KHỎE DU HỌC</a></h3>
-
-<small>Liên hệ</small>
-
-
-
-<script> 
-if(typeof window.listProductId == 'undefined' ){ 
-window.listProductId ={}; 
- }
- var id = 17262399; 
-window.listProductId[id] = 1; 
- $(document).ready(function(){
- if(typeof window.append == 'undefined' ){
- for(var name in window.listProductId){
-var pcInputCheckbox = $(".pc-input-checkbox-"+name).html(); 
- $(".price-box[checkbox-class=price-box-"+name+"]").after(pcInputCheckbox);
-} 
- window.append =false;
-} 
-}); 
-</script>
-			</div>
-			
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 laster-shop-item">
-				 
- 
- 
- 
- 
-<div class="pc-input-checkbox-11739479" style="display: none">
-<input type="checkbox" id="checkbox-goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban" class="checkbox-add-compare checkbox-goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban" image="https://bizweb.dktcdn.net/100/089/365/products/lcd-02.jpg?v=1526887943000" value="goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban" alias="goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban" name="GÓI KIỂM TRA BỆNH LÂY TRUYỀN QUA ĐƯỜNG TÌNH DỤC | GS-15" price="0₫"> <label for="checkbox-goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban">Thêm vào so sánh</label> 
- </div><div class="laster-thumb">
-	<div class="shop-icon-data">
-		
-	</div>
-	<a href="/goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban"><img src="images/lcd-02.jpg" alt="GÓI KIỂM TRA BỆNH LÂY TRUYỀN QUA ĐƯỜNG TÌNH DỤC | GS-15"></a>
-	
-	<form action="/cart/add" method="post" class="variants" id="product-actions-11739479" enctype="multipart/form-data">
-		<span class="tz-shop-meta">
-			<a href="/goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban" class="tzheart"><i class="fa fa-eye"></i></a>
-			<!--<a href="javascript:void(0);" style="cursor: no-drop;" class="tz-view-more2"><span>Liên hệ</span></a>-->
-		</span>
-	</form>
-	
-	
-
-
-
-
-<input type="checkbox" id="checkbox-goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban" class="checkbox-add-compare checkbox-goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban" image="https://bizweb.dktcdn.net/100/089/365/products/lcd-02.jpg?v=1526887943000" value="goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban" alias="goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban" name="GÓI KIỂM TRA BỆNH LÂY TRUYỀN QUA ĐƯỜNG TÌNH DỤC | GS-15" price="0₫"> <label for="checkbox-goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban">Thêm vào so sánh</label>
-
-
-</div>
-<h3><a href="/goi-kiem-tra-benh-lay-truyen-qua-duong-tinh-duc-co-ban">GÓI KIỂM TRA BỆNH LÂY TRUYỀN QUA ĐƯỜNG TÌNH DỤC | GS-15</a></h3>
-
-<small>Liên hệ</small>
-
-
-
-<script> 
-if(typeof window.listProductId == 'undefined' ){ 
-window.listProductId ={}; 
- }
- var id = 11739479; 
-window.listProductId[id] = 1; 
- $(document).ready(function(){
- if(typeof window.append == 'undefined' ){
- for(var name in window.listProductId){
-var pcInputCheckbox = $(".pc-input-checkbox-"+name).html(); 
- $(".price-box[checkbox-class=price-box-"+name+"]").after(pcInputCheckbox);
-} 
- window.append =false;
-} 
-}); 
-</script>
-			</div>
-			
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 laster-shop-item">
-				 
- 
- 
- 
- 
-<div class="pc-input-checkbox-7447628" style="display: none">
-<input type="checkbox" id="checkbox-goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong" class="checkbox-add-compare checkbox-goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong" image="https://bizweb.dktcdn.net/100/089/365/products/kham-suc-khoe-nguoi-lao-dong-2.jpg?v=1522653068610" value="goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong" alias="goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong" name="GÓI KHÁM SỨC KHỎE ĐỊNH KỲ CHO NGƯỜI LAO ĐỘNG" price="0₫"> <label for="checkbox-goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong">Thêm vào so sánh</label> 
- </div><div class="laster-thumb">
-	<div class="shop-icon-data">
-		
-	</div>
-	<a href="/goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong"><img src="images/kham-suc-khoe-nguoi-lao-dong-2.jpg" alt="GÓI KHÁM SỨC KHỎE ĐỊNH KỲ CHO NGƯỜI LAO ĐỘNG"></a>
-	
-	<form action="/cart/add" method="post" class="variants" id="product-actions-7447628" enctype="multipart/form-data">
-		<span class="tz-shop-meta">
-			
-			
-			<input type="hidden" name="variantId" value="11844992">
-			
-			<button class="btn-buy btn-cart btn btn-primary left-to add_to_cart " title>
-				Đặt mua
-			</button>
-	
-			
-			<a href="/goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong" class="tzheart">
-				<i class="fa fa-eye"></i>
-			</a>
-		</span>
-	</form>
-	
-	
-
-
-
-
-<input type="checkbox" id="checkbox-goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong" class="checkbox-add-compare checkbox-goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong" image="https://bizweb.dktcdn.net/100/089/365/products/kham-suc-khoe-nguoi-lao-dong-2.jpg?v=1522653068610" value="goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong" alias="goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong" name="GÓI KHÁM SỨC KHỎE ĐỊNH KỲ CHO NGƯỜI LAO ĐỘNG" price="0₫"> <label for="checkbox-goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong">Thêm vào so sánh</label>
-
-
-</div>
-<h3><a href="/goi-kham-suc-khoe-dinh-ki-cho-nguoi-lao-dong">GÓI KHÁM SỨC KHỎE ĐỊNH KỲ CHO NGƯỜI LAO ĐỘNG</a></h3>
-
-
-
-<small>Liên hệ</small>
-
-
-
-
-<script> 
-if(typeof window.listProductId == 'undefined' ){ 
-window.listProductId ={}; 
- }
- var id = 7447628; 
-window.listProductId[id] = 1; 
- $(document).ready(function(){
- if(typeof window.append == 'undefined' ){
- for(var name in window.listProductId){
-var pcInputCheckbox = $(".pc-input-checkbox-"+name).html(); 
- $(".price-box[checkbox-class=price-box-"+name+"]").after(pcInputCheckbox);
-} 
- window.append =false;
-} 
-}); 
-</script>
-			</div>
-			
-		</div>
-		
-		<a href="/frontpage" class="tz-view-more2 tz-view-style2">
-			<span>XEM THÊM</span>
-		</a>
-	</div><!--end class container-->
-</section><!--end class tz-lastest-shop-->
-
-
-
-		</div>
-
-		<!-- <link href="//bizweb.dktcdn.net/100/089/365/themes/112903/assets/is-keywords-module.css?1615175747775" rel="stylesheet" type="text/css" />
-<div class="is-keywords-module"></div> CÁC KEYWORD TÌM KIẾM NHIỀU NHẤT: ẨN-->
-		
-<link href="css/bpr-products-module.css" rel="stylesheet" type="text/css">
-<div class="sapo-product-reviews-module"></div>
-
-<div class="tz-partner theme-gray text-center khachhang" style="position:relative">
-	<div style="background: #f0f5f8;">
-		<p class="f17" style="margin-bottom:0px">Chúng tôi tự hào là đối tác tin cậy của:</p>
-		<div class="container">
-			<ul class="partner-slider1">
-				<li>
-					<a href="#"><img src="images/doitac.jpg"></a>
-				</li>  
-				<li>
-					<a href="#"><img src="images/doitac1.jpg"></a>
-				</li>  
-				<li>
-					<a href="http://enternews.vn/"><img src="images/doitac2.jpg"></a>
-				</li>
-				
-				<li>
-					<a href="#"><img src="images/doitac3.jpg"></a>
-				</li>  
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac4.jpg"></a>
-				</li>  
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac5.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac6.jpg"></a>
-				</li>  
-				
-				
-				<li>
-					<a href="https://quatanghoangminh.com/"><img src="images/doitac7.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac8.jpg"></a>
-				</li> 
-				
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac10.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac11.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac12.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac13.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="http://vbi.vietinbank.vn/"><img src="images/doitac14.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac15.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac16.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac17.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac18.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac19.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac20.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac21.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac22.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac23.jpg"></a>
-				</li>
-				
-				
-				<li>
-					<a href="#"><img src="images/doitac24.jpg"></a>
-				</li>
-				
-				
-				
-				
-				
-				
-				
-				
-			</ul>
-			<button class="award_prev33"><i class="fa fa-angle-left"></i></button>
-			<button class="award_next33"><i class="fa fa-angle-right "></i></button>
-		</div>
-	</div>
-</div><!--end class partner-->
-
-<script>
-	jQuery(document).ready(function(){
-
-		"use strict";
-
-
-		/* Method for Partner slider */
-		jQuery(".partner-slider1").owlCarousel({
-			items : 5,
-			itemsDesktop : [1199,5],
-			itemsDesktopSmall : [979,5],
-			itemsTablet: [768, 1],
-			itemsMobile: [479, 1],
-			slideSpeed:500,
-			paginationSpeed:800,
-			rewindSpeed:1000,
-			autoPlay:true,
-			stopOnHover: false,
-			singleItem:false,
-			rewindNav:true,
-			pagination:false,
-			paginationNumbers:false,
-			itemsScaleUp:false
-		});
-
-		jQuery(".award_prev33").click(function(){
-			jQuery(".partner-slider1").trigger('owl.prev');
-		}) ;
-		jQuery(".award_next33").click(function(){
-			jQuery(".partner-slider1").trigger('owl.next');
-		}) ;
-	});
-</script>
-<style>
-	.award_prev33,.award_next33 {
-		top: 63%;
-	}
-</style>
-<footer>
-	<div class="tz-footer-content">
-	<div class="container">
-		<div class="row">
-			
-				<div class="col-lg-6 col-md-8 col-sm-8 col-xs-12 footer-item">
-					<p class>Copyright © 2016 Phòng khám Đa khoa Dr. Binh Tele_Clinic. All rights reserved.</p>
-					<h3 class="module-title">
-						<span>
-							PHÒNG KHÁM ĐA KHOA DR. BINH TELE_CLINIC - Chi nhánh công ty TNHH giải pháp E2E
-							<p>Giám đốc chi nhánh: Bà NGUYỄN THÚY LAN</p>
-							<p>Mã số chi nhánh: 0102398735-001
-						   <br>Nơi cấp: Sở Kế hoạch đầu tư - TP Hà Nội    Cấp ngày: 11-8-2014</p>
-							
-						</span>
-					</h3>
-					<div class="tzwidget-contact">
-						<address>
-							Số 11-13-15 Trần Xuân Soạn, P. Phạm Đình Hổ, Q. Hai Bà Trưng, Hà Nội 
-						</address>
-						<span>
-							<strong>HOTLINE: 1900 9204 | Điện thoại: </strong>(024)-3.622.77.99 - <strong>Mobile: </strong>0972.848.809<br>
-						</span>
-						<a href="mailto:<strong>Email: </strong>info@drbinh.com | support@drbinh.com<br><strong>Website: </strong>www.drbinh.com " target="_top"><strong>Email: </strong>info@drbinh.com | support@drbinh.com<br><strong>Website: </strong>www.drbinh.com </a>
-						<p>Giờ làm việc: Từ Thứ Hai đến Thứ Bảy hàng tuần <br>Sáng: 7h30 đến 12h00 - Chiều: 13h30 - 17h00</p>
-						
-					</div>
-				</div>
-			
-			
-			<div class="col-lg-3 col-md-2 col-sm-2 col-xs-12 footer-item">
-			<br>
-				<a href="/chinh-sach-va-quy-dinh-chung" target="_blank" style="color: #ffffff;">* Chính sách &amp; quy định chung</a> 	
-			<br><a href="/hinh-thuc-thanh-toan" target="_blank" style="color: #ffffff;">* Quy định &amp; hình thức thanh toán</a>
-			<br><a href="/chinh-sach-bao-mat-thong-tin-ca-nhan" target="_blank" style="color: #ffffff;">* Chính sách bảo mật thông tin cá nhân</a>
-			<br><br>
-			<a href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=32167" target="_blank">
-			<img src="images/da-thong-bao-bo-cong-thuong.png" alt="da-thong-bao-bo-cong-thuong" style="width:200px; height:auto;">
-			</a> 
-			</div>
-			
-						
-			<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 footer-item">
-
-					<div class="textwidget">
-						<iframe src="embed.html" width="600" height="270" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</div>
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-		
-		
-		<div class="row">
-		<br>
-		<a style="color:#ffffff;"><span style="font-size:12px;">*Các thông tin y tế trên Drbinh.com chỉ mang tính chất tham khảo, khi áp dụng phải tuyệt đối tuân theo chỉ dẫn của Bác sĩ. Chúng tôi tuyệt đối không chịu bất cứ trách nhiệm nào do việc tự ý áp dụng các thông tin trên Drbinh.com gây ra.				
-		</span></a>	
-		</div>
-				
-		
-		</div>
-	</div>
-<div class="mau-f">
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-xs-12 col-sm-4">
-				<div class="searchss">
-					<form action="/search" method="get">
-						<input type="text" placeholder="Tìm kiếm..." name="query" value maxlength="70" id="tz-search-input" class="tz-search-input">
-						<input class="hidden" type="submit" value>
-						<i class="fa fa-search"></i>
-					</form>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6">
-				<div class="lisst-f">
-					<a href="/">Trang chủ</a>
-					<a href="http://yhocvasuckhoe.net/" target="_blank">Forums</a> 
-					<a href="/lien-he" title="Liên hệ với chúng tôi">Liên hệ</a>
-					<a href="/cong-tac-vien" title="Đăng ký là cộng tác viên của Dr. Binh">Cộng tác viên</a>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-2 text-right" style="display:none">
-				<a href>
-				<img src="images/fb.png">
-				</a>
-			</div>
-			<div class="clearfix"></div>
-			</div>
-		</div>
-
-
-	</div>
-</footer><!--end class tz-footer-->
-
-
-		<div class="theblogwidgets">
-			<div class="bo">
-				<div class="fb-page" data-href="https://facebook.com/biquyetchamsocsuckhoe" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://facebook.com/biquyetchamsocsuckhoe" class="fb-xfbml-parse-ignore"><a href="https://facebook.com/biquyetchamsocsuckhoe">Dr.Binh Tele_Clinic</a></blockquote></div>
-
-			</div>
-			<div style="clear:both"></div>
-			<script type="text/javascript">
-				jQuery(document).ready(function(){
-					if (jQuery(window).width() < 1000) {
-						jQuery(".theblogwidgets").css("display", "none");
-						jQuery(".thesupport").css("display", "none");
-					}  
-				});
-			</script>
-			<style>
-				.theblogwidgets {
-					background: url(images/g2isyip.png) no-repeat scroll right center transparent !important;
-				}
-			</style>
-			<script type="text/javascript">
-				/*<![CDATA[*/
-				jQuery(document).ready(function() {
-					jQuery(".theblogwidgets").hover(function() {
-						jQuery(this).stop().animate({
-							left: "0"
-						}, "medium");
-					}, function() {
-						jQuery(this).stop().animate({
-							left: "-301"
-						}, "medium");
-					}, 500);
-
-				}); /*]]>*/
-			</script>
-		</div>
-		<script type="text/javascript">
-			jQuery(document).ready(function(){
-				if (jQuery(window).width() < 1000) {
-					jQuery(".theblogwidgets").css("display", "none");
-					jQuery(".thesupport").css("display", "none");
-				}  
-			});
-		</script>
-		<style>
-	.cd-container {
-		width: 90%;
-		max-width: 768px;
-		margin: 2em auto;
-	}
-	.cd-container::after {
-		/* clearfix */
-		content: '';
-		display: table;
-		clear: both;
-	}
-	.cd-top {
-		display: inline-block;
-		height: 40px;
-		width: 40px;
-		position: fixed;
-		bottom: 40px;
-		right: 10px;
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-		/* image replacement properties */
-		overflow: hidden;
-		text-indent: 100%;
-		white-space: nowrap;
-		background: rgba(232, 98, 86, 0.8) url(fonts/cd-top-arrow.svg) no-repeat center 50%;
-		visibility: hidden;
-		opacity: 0;
-		-webkit-transition: opacity .3s 0s, visibility 0s .3s;
-		-moz-transition: opacity .3s 0s, visibility 0s .3s;
-		transition: opacity .3s 0s, visibility 0s .3s;
-	}
-	.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
-		-webkit-transition: opacity .3s 0s, visibility 0s 0s;
-		-moz-transition: opacity .3s 0s, visibility 0s 0s;
-		transition: opacity .3s 0s, visibility 0s 0s;
-	}
-	.cd-top.cd-is-visible {
-		/* the button becomes visible */
-		visibility: visible;
-		opacity: 1;
-	}
-	.cd-top.cd-fade-out {
-		/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-		opacity: .5;
-	}
-	.no-touch .cd-top:hover {
-		background-color: #e86256;
-		opacity: 1;
-	}
-	@media only screen and (min-width: 768px) {
-		.cd-top {
-			right: 20px;
-			bottom: 20px;
-		}
-	}
-	@media only screen and (min-width: 1024px) {
-		.cd-top {
-			height: 60px;
-			width: 60px;
-			right: 30px;
-			bottom: 45px;
-		}
-	}
-
-</style>
-
-<a href="#0" class="cd-top">Top</a>
-<script>
-	jQuery(document).ready(function($){
-		// browser window scroll (in pixels) after which the "back to top" link is shown
-		var offset = 300,
-			//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
-			offset_opacity = 1200,
-			//duration of the top scrolling animation (in ms)
-			scroll_top_duration = 700,
-			//grab the "back to top" link
-			$back_to_top = $('.cd-top');
-
-		//hide or show the "back to top" link
-		$(window).scroll(function(){
-			( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
-			if( $(this).scrollTop() > offset_opacity ) { 
-				$back_to_top.addClass('cd-fade-out');
-			}
-		});
-
-		//smooth scroll to top
-		$back_to_top.on('click', function(event){
-			event.preventDefault();
-			$('body,html').animate({
-				scrollTop: 0 ,
-			}, scroll_top_duration
-								  );
-		});
-
-	});
-</script> <!-- Gem jQuery -->
-		<link href="css/jgrowl_1.css" rel="stylesheet"><script src="js/jgrowl.js"></script><link href="css/font-awesome.min_2.css" rel="stylesheet" type="text/css"><link href="css/CustomerCss.css" rel="stylesheet" type="text/css"><div id="product-compare"><div id="product-compare-frame"><div id="product-compare-list"></div><div class="product-compare-bottom-frame"><a href="/pages/so-sanh-san-pham-10" class="product-compare-btn-link">So sánh</a></div></div><button type="button" id="product-compare-button" style="display:none" title="So sánh sản phẩm">So sánh</button></div><div id="jGrowl-product-compare" class="top-right jGrowl"></div> 
-
-		<script src="js/option-selectors.js" type="text/javascript"></script>
-		<script src="js/api.jquery.js" type="text/javascript"></script>
-
-	
-<script>
-      (function() {
-        var s = document.createElement('script');
-        s.async = true;
-        s.src = 'https://cdn.doke.app/ozui/js/ozui.js';
-        document.body.appendChild(s);
-        window.OZUI_CONFIG = {
-          'token': '256bc32c-a73a-4b2c-8222-4d1ec42ffa30',
-          'css_url': 'https://cdn.doke.app/ozui/css/ozui.css',
-          'user_config': 'https://api.ozui.vn/campaigns/token',
-          'base_api': 'https://api.ozui.vn'
-        };
-      }());
-      </script>
-<!--32daa5ed0e67f0486fdc71981fd226c6--><script src="js/ega-gateway.min.js" type="text/javascript"></script><!--32daa5ed0e67f0486fdc71981fd226c6-->
-<!--18b3727310778ca2d48e393cb45cc540--><script src="js/ega.addon-hotline.settings.js" type="text/javascript"></script><!--18b3727310778ca2d48e393cb45cc540-->
-<!--d9fed557a2f50b28ded78cbf4d525a30--><script>
-  var  egaHotlineRegister = {
-    js: [
-      "//bizweb.dktcdn.net/100/089/365/themes/112903/assets/ega.addon-hotline.min.js?1615175747775",
-    ]
-  }
-</script><!--d9fed557a2f50b28ded78cbf4d525a30-->
-<!--053977e04c38ecf8650806dd9cf95091--><script src="js/ega.addon-fixed-toc.settings.js" type="text/javascript"></script><!--053977e04c38ecf8650806dd9cf95091-->
-<!--f6a71c54fbe1107a1ff22623819ba29d--><script>
-  EGAFixedTocSettings = {
-    ...EGAFixedTocSettings,
-    currentTemplate: 'index',
-  }
-  var egaFixedTocRegister = {
-    js: [
-      "//bizweb.dktcdn.net/100/089/365/themes/112903/assets/ega.addon-fixed-toc.min.js?1615175747775",
-    ]
-  }
-</script><!--f6a71c54fbe1107a1ff22623819ba29d-->
-<!--a7be7564f7252b524463135b7374eca3--><script src="js/ega.addon-cr-button.settings.js" type="text/javascript"></script><!--a7be7564f7252b524463135b7374eca3-->
-<!--538ca388eaeb71f50b6d9a8e3f789789--><script>
-let crAddonScript = "//bizweb.dktcdn.net/100/089/365/themes/112903/assets/ega.addon-cr-button.min.js?1615175747775"
-
-	EGACRAddonSettings.general.currentTemplate = 'index';
-	EGACRAddonSettings.general.platform  = Bizweb;
-	window.EGACRAddonSettings.general.moneyFormat = '{{amount_no_decimals_with_comma_separator}}₫'
-	const platform = window.EGACRAddonSettings.general.platform
-	platform.addItem = function(variantId, quantity,callback,errHandle){
-	var quantity = quantity || 1
-		, n = {
-			type: "POST",
-			url: "/cart/add.js",
-			data: "quantity=" + quantity + "&VariantId=" + variantId,
-			dataType: "json",
-			success: function(a) {
-				"function" == typeof callback ? callback(a) : Bizweb.onItemAdded(a)
-			},
-			error: function(a, r) {
-			errHandle(a, r)
-			}
-		};
-		jQuery.ajax(n)
-
-	}
-	if(typeof EGA === 'undefined'){
-		EGA = {}
-	}
-	window.egaCRAddonRegister = {
-		js: [
-			crAddonScript
-		]
-	}
-</script><!--538ca388eaeb71f50b6d9a8e3f789789-->
-<!--8a96c0fc83ac748e013daef907d1eec1--><script src="js/ega.addon-promo-box.settings.js" type="text/javascript"></script><!--8a96c0fc83ac748e013daef907d1eec1-->
-<!--0b7faaad5a81bdefc8cb01f0f183b393--><script>
-	let currTemplate = 'index'
-  function egaCheckShowInPage (settings){
-    let isShowInThisPage = false;
-	
-  return isShowInThisPage;
-  }
-	let isShowInThisPage = egaCheckShowInPage(EGAPromoBoxSettings.general)
-	if(isShowInThisPage){
-		currTemplate = 'product'
-	}
-	window.EGAPromoBoxSettings.general = Object.assign(window.EGAPromoBoxSettings.general,{
-		currentTemplate: currTemplate,
-    isShowInThisPage: isShowInThisPage
-	})
-console.log(window.EGAPromoBoxSettings)
-	var  egaPromoBoxRegister = {
-    js: [
-      "//bizweb.dktcdn.net/100/089/365/themes/112903/assets/ega.addon-promo-box.min.js?1615175747775",
-    ]
-  }
-
-</script><!--0b7faaad5a81bdefc8cb01f0f183b393-->
+<body class="theme-red">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="preloader">
+                <div class="spinner-layer pl-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <div class="search-icon">
+            <i class="material-icons">search</i>
+        </div>
+        <input type="text" placeholder="START TYPING...">
+        <div class="close-search">
+            <i class="material-icons">close</i>
+        </div>
+    </div>
+    <!-- #END# Search Bar -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" href="index.html">ADMINBSB - MATERIAL DESIGN</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Call Search -->
+                    <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+                    <!-- #END# Call Search -->
+                    <!-- Notifications -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            <i class="material-icons">notifications</i>
+                            <span class="label-count">7</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="header">NOTIFICATIONS</li>
+                            <li class="body">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">person_add</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>12 new members joined</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 14 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-cyan">
+                                                <i class="material-icons">add_shopping_cart</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>4 sales made</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 22 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-red">
+                                                <i class="material-icons">delete_forever</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>Nancy Doe</b> deleted account</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-orange">
+                                                <i class="material-icons">mode_edit</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>Nancy</b> changed name</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 2 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-blue-grey">
+                                                <i class="material-icons">comment</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>John</b> commented your post</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 4 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">cached</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>John</b> updated status</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-purple">
+                                                <i class="material-icons">settings</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>Settings updated</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> Yesterday
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer">
+                                <a href="javascript:void(0);">View All Notifications</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Notifications -->
+                    <!-- Tasks -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            <i class="material-icons">flag</i>
+                            <span class="label-count">9</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="header">TASKS</li>
+                            <li class="body">
+                                <ul class="menu tasks">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <h4>
+                                                Footer display issue
+                                                <small>32%</small>
+                                            </h4>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-pink" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 32%">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <h4>
+                                                Make new buttons
+                                                <small>45%</small>
+                                            </h4>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-cyan" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <h4>
+                                                Create new dashboard
+                                                <small>54%</small>
+                                            </h4>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-teal" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 54%">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <h4>
+                                                Solve transition issue
+                                                <small>65%</small>
+                                            </h4>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <h4>
+                                                Answer GitHub questions
+                                                <small>92%</small>
+                                            </h4>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-purple" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 92%">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer">
+                                <a href="javascript:void(0);">View All Tasks</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Tasks -->
+                    <li class="pull-right"><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="material-icons">more_vert</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    <section>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+            <!-- User Info -->
+            <div class="user-info">
+                <div class="image">
+                    <img src="images/user.png" width="48" height="48" alt="User" />
+                </div>
+                <div class="info-container">
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe</div>
+                    <div class="email">john.doe@example.com</div>
+                    <div class="btn-group user-helper-dropdown">
+                        <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="javascript:void(0);"><i class="material-icons">person</i>Profile</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">group</i>Followers</a></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Sales</a></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">favorite</i>Likes</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">input</i>Sign Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- #User Info -->
+            <!-- Menu -->
+            <div class="menu">
+                <ul class="list">
+                    <li class="header">MAIN NAVIGATION</li>
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="material-icons">home</i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/typography.html">
+                            <i class="material-icons">text_fields</i>
+                            <span>Typography</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/helper-classes.html">
+                            <i class="material-icons">layers</i>
+                            <span>Helper Classes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">widgets</i>
+                            <span>Widgets</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Cards</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="pages/widgets/cards/basic.html">Basic</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/widgets/cards/colored.html">Colored</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/widgets/cards/no-header.html">No Header</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Infobox</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="pages/widgets/infobox/infobox-1.html">Infobox-1</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/widgets/infobox/infobox-2.html">Infobox-2</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/widgets/infobox/infobox-3.html">Infobox-3</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/widgets/infobox/infobox-4.html">Infobox-4</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/widgets/infobox/infobox-5.html">Infobox-5</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">swap_calls</i>
+                            <span>User Interface (UI)</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="pages/ui/alerts.html">Alerts</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/animations.html">Animations</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/badges.html">Badges</a>
+                            </li>
+
+                            <li>
+                                <a href="pages/ui/breadcrumbs.html">Breadcrumbs</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/buttons.html">Buttons</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/collapse.html">Collapse</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/colors.html">Colors</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/dialogs.html">Dialogs</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/icons.html">Icons</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/labels.html">Labels</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/list-group.html">List Group</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/media-object.html">Media Object</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/modals.html">Modals</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/notifications.html">Notifications</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/pagination.html">Pagination</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/preloaders.html">Preloaders</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/progressbars.html">Progress Bars</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/range-sliders.html">Range Sliders</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/sortable-nestable.html">Sortable & Nestable</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/tabs.html">Tabs</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/thumbnails.html">Thumbnails</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/tooltips-popovers.html">Tooltips & Popovers</a>
+                            </li>
+                            <li>
+                                <a href="pages/ui/waves.html">Waves</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">assignment</i>
+                            <span>Forms</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="pages/forms/basic-form-elements.html">Basic Form Elements</a>
+                            </li>
+                            <li>
+                                <a href="pages/forms/advanced-form-elements.html">Advanced Form Elements</a>
+                            </li>
+                            <li>
+                                <a href="pages/forms/form-examples.html">Form Examples</a>
+                            </li>
+                            <li>
+                                <a href="pages/forms/form-validation.html">Form Validation</a>
+                            </li>
+                            <li>
+                                <a href="pages/forms/form-wizard.html">Form Wizard</a>
+                            </li>
+                            <li>
+                                <a href="pages/forms/editors.html">Editors</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">view_list</i>
+                            <span>Tables</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="pages/tables/normal-tables.html">Normal Tables</a>
+                            </li>
+                            <li>
+                                <a href="pages/tables/jquery-datatable.html">Jquery Datatables</a>
+                            </li>
+                            <li>
+                                <a href="pages/tables/editable-table.html">Editable Tables</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">perm_media</i>
+                            <span>Medias</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="pages/medias/image-gallery.html">Image Gallery</a>
+                            </li>
+                            <li>
+                                <a href="pages/medias/carousel.html">Carousel</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">pie_chart</i>
+                            <span>Charts</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="pages/charts/morris.html">Morris</a>
+                            </li>
+                            <li>
+                                <a href="pages/charts/flot.html">Flot</a>
+                            </li>
+                            <li>
+                                <a href="pages/charts/chartjs.html">ChartJS</a>
+                            </li>
+                            <li>
+                                <a href="pages/charts/sparkline.html">Sparkline</a>
+                            </li>
+                            <li>
+                                <a href="pages/charts/jquery-knob.html">Jquery Knob</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">content_copy</i>
+                            <span>Example Pages</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="pages/examples/profile.html">Profile</a>
+                            </li>
+                            <li>
+                                <a href="pages/examples/sign-in.html">Sign In</a>
+                            </li>
+                            <li>
+                                <a href="pages/examples/sign-up.html">Sign Up</a>
+                            </li>
+                            <li>
+                                <a href="pages/examples/forgot-password.html">Forgot Password</a>
+                            </li>
+                            <li>
+                                <a href="pages/examples/blank.html">Blank Page</a>
+                            </li>
+                            <li>
+                                <a href="pages/examples/404.html">404 - Not Found</a>
+                            </li>
+                            <li>
+                                <a href="pages/examples/500.html">500 - Server Error</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">map</i>
+                            <span>Maps</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="pages/maps/google.html">Google Map</a>
+                            </li>
+                            <li>
+                                <a href="pages/maps/yandex.html">YandexMap</a>
+                            </li>
+                            <li>
+                                <a href="pages/maps/jvectormap.html">jVectorMap</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">trending_down</i>
+                            <span>Multi Level Menu</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <span>Menu Item</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <span>Menu Item - 2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Level - 2</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <span>Menu Item</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" class="menu-toggle">
+                                            <span>Level - 3</span>
+                                        </a>
+                                        <ul class="ml-menu">
+                                            <li>
+                                                <a href="javascript:void(0);">
+                                                    <span>Level - 4</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="pages/changelogs.html">
+                            <i class="material-icons">update</i>
+                            <span>Changelogs</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- #Menu -->
+            <!-- Footer -->
+            <div class="legal">
+                <div class="copyright">
+                    &copy; 2016 - 2017 <a href="javascript:void(0);">AdminBSB - Material Design</a>.
+                </div>
+                <div class="version">
+                    <b>Version: </b> 1.0.5
+                </div>
+            </div>
+            <!-- #Footer -->
+        </aside>
+        <!-- #END# Left Sidebar -->
+        <!-- Right Sidebar -->
+        <aside id="rightsidebar" class="right-sidebar">
+            <ul class="nav nav-tabs tab-nav-right" role="tablist">
+                <li role="presentation" class="active"><a href="#skins" data-toggle="tab">SKINS</a></li>
+                <li role="presentation"><a href="#settings" data-toggle="tab">SETTINGS</a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active in active" id="skins">
+                    <ul class="demo-choose-skin">
+                        <li data-theme="red" class="active">
+                            <div class="red"></div>
+                            <span>Red</span>
+                        </li>
+                        <li data-theme="pink">
+                            <div class="pink"></div>
+                            <span>Pink</span>
+                        </li>
+                        <li data-theme="purple">
+                            <div class="purple"></div>
+                            <span>Purple</span>
+                        </li>
+                        <li data-theme="deep-purple">
+                            <div class="deep-purple"></div>
+                            <span>Deep Purple</span>
+                        </li>
+                        <li data-theme="indigo">
+                            <div class="indigo"></div>
+                            <span>Indigo</span>
+                        </li>
+                        <li data-theme="blue">
+                            <div class="blue"></div>
+                            <span>Blue</span>
+                        </li>
+                        <li data-theme="light-blue">
+                            <div class="light-blue"></div>
+                            <span>Light Blue</span>
+                        </li>
+                        <li data-theme="cyan">
+                            <div class="cyan"></div>
+                            <span>Cyan</span>
+                        </li>
+                        <li data-theme="teal">
+                            <div class="teal"></div>
+                            <span>Teal</span>
+                        </li>
+                        <li data-theme="green">
+                            <div class="green"></div>
+                            <span>Green</span>
+                        </li>
+                        <li data-theme="light-green">
+                            <div class="light-green"></div>
+                            <span>Light Green</span>
+                        </li>
+                        <li data-theme="lime">
+                            <div class="lime"></div>
+                            <span>Lime</span>
+                        </li>
+                        <li data-theme="yellow">
+                            <div class="yellow"></div>
+                            <span>Yellow</span>
+                        </li>
+                        <li data-theme="amber">
+                            <div class="amber"></div>
+                            <span>Amber</span>
+                        </li>
+                        <li data-theme="orange">
+                            <div class="orange"></div>
+                            <span>Orange</span>
+                        </li>
+                        <li data-theme="deep-orange">
+                            <div class="deep-orange"></div>
+                            <span>Deep Orange</span>
+                        </li>
+                        <li data-theme="brown">
+                            <div class="brown"></div>
+                            <span>Brown</span>
+                        </li>
+                        <li data-theme="grey">
+                            <div class="grey"></div>
+                            <span>Grey</span>
+                        </li>
+                        <li data-theme="blue-grey">
+                            <div class="blue-grey"></div>
+                            <span>Blue Grey</span>
+                        </li>
+                        <li data-theme="black">
+                            <div class="black"></div>
+                            <span>Black</span>
+                        </li>
+                    </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="settings">
+                    <div class="demo-settings">
+                        <p>GENERAL SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Report Panel Usage</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Email Redirect</span>
+                                <div class="switch">
+                                    <label><input type="checkbox"><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>SYSTEM SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Notifications</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Auto Updates</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>ACCOUNT SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Offline</span>
+                                <div class="switch">
+                                    <label><input type="checkbox"><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Location Permission</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- #END# Right Sidebar -->
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <h2>DASHBOARD</h2>
+            </div>
+
+            <!-- Widgets -->
+            <div class="row clearfix">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box bg-pink hover-expand-effect">
+                        <div class="icon">
+                            <i class="material-icons">playlist_add_check</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">NEW TASKS</div>
+                            <div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box bg-cyan hover-expand-effect">
+                        <div class="icon">
+                            <i class="material-icons">help</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">NEW TICKETS</div>
+                            <div class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box bg-light-green hover-expand-effect">
+                        <div class="icon">
+                            <i class="material-icons">forum</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">NEW COMMENTS</div>
+                            <div class="number count-to" data-from="0" data-to="243" data-speed="1000" data-fresh-interval="20"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box bg-orange hover-expand-effect">
+                        <div class="icon">
+                            <i class="material-icons">person_add</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">NEW VISITORS</div>
+                            <div class="number count-to" data-from="0" data-to="1225" data-speed="1000" data-fresh-interval="20"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #END# Widgets -->
+            <!-- CPU Usage -->
+            <div class="row clearfix">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="card">
+                        <div class="header">
+                            <div class="row clearfix">
+                                <div class="col-xs-12 col-sm-6">
+                                    <h2>CPU USAGE (%)</h2>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 align-right">
+                                    <div class="switch panel-switch-btn">
+                                        <span class="m-r-10 font-12">REAL TIME</span>
+                                        <label>OFF<input type="checkbox" id="realtime" checked><span class="lever switch-col-cyan"></span>ON</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="javascript:void(0);">Action</a></li>
+                                        <li><a href="javascript:void(0);">Another action</a></li>
+                                        <li><a href="javascript:void(0);">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="body">
+                            <div id="real_time_chart" class="dashboard-flot-chart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #END# CPU Usage -->
+            <div class="row clearfix">
+                <!-- Visitors -->
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="body bg-pink">
+                            <div class="sparkline" data-type="line" data-spot-Radius="4" data-highlight-Spot-Color="rgb(233, 30, 99)" data-highlight-Line-Color="#fff"
+                                 data-min-Spot-Color="rgb(255,255,255)" data-max-Spot-Color="rgb(255,255,255)" data-spot-Color="rgb(255,255,255)"
+                                 data-offset="90" data-width="100%" data-height="92px" data-line-Width="2" data-line-Color="rgba(255,255,255,0.7)"
+                                 data-fill-Color="rgba(0, 188, 212, 0)">
+                                12,10,9,6,5,6,10,5,7,5,12,13,7,12,11
+                            </div>
+                            <ul class="dashboard-stat-list">
+                                <li>
+                                    TODAY
+                                    <span class="pull-right"><b>1 200</b> <small>USERS</small></span>
+                                </li>
+                                <li>
+                                    YESTERDAY
+                                    <span class="pull-right"><b>3 872</b> <small>USERS</small></span>
+                                </li>
+                                <li>
+                                    LAST WEEK
+                                    <span class="pull-right"><b>26 582</b> <small>USERS</small></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- #END# Visitors -->
+                <!-- Latest Social Trends -->
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="body bg-cyan">
+                            <div class="m-b--35 font-bold">LATEST SOCIAL TRENDS</div>
+                            <ul class="dashboard-stat-list">
+                                <li>
+                                    #socialtrends
+                                    <span class="pull-right">
+                                        <i class="material-icons">trending_up</i>
+                                    </span>
+                                </li>
+                                <li>
+                                    #materialdesign
+                                    <span class="pull-right">
+                                        <i class="material-icons">trending_up</i>
+                                    </span>
+                                </li>
+                                <li>#adminbsb</li>
+                                <li>#freeadmintemplate</li>
+                                <li>#bootstraptemplate</li>
+                                <li>
+                                    #freehtmltemplate
+                                    <span class="pull-right">
+                                        <i class="material-icons">trending_up</i>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- #END# Latest Social Trends -->
+                <!-- Answered Tickets -->
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="body bg-teal">
+                            <div class="font-bold m-b--35">ANSWERED TICKETS</div>
+                            <ul class="dashboard-stat-list">
+                                <li>
+                                    TODAY
+                                    <span class="pull-right"><b>12</b> <small>TICKETS</small></span>
+                                </li>
+                                <li>
+                                    YESTERDAY
+                                    <span class="pull-right"><b>15</b> <small>TICKETS</small></span>
+                                </li>
+                                <li>
+                                    LAST WEEK
+                                    <span class="pull-right"><b>90</b> <small>TICKETS</small></span>
+                                </li>
+                                <li>
+                                    LAST MONTH
+                                    <span class="pull-right"><b>342</b> <small>TICKETS</small></span>
+                                </li>
+                                <li>
+                                    LAST YEAR
+                                    <span class="pull-right"><b>4 225</b> <small>TICKETS</small></span>
+                                </li>
+                                <li>
+                                    ALL
+                                    <span class="pull-right"><b>8 752</b> <small>TICKETS</small></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- #END# Answered Tickets -->
+            </div>
+
+            <div class="row clearfix">
+                <!-- Task Info -->
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <div class="card">
+                        <div class="header">
+                            <h2>TASK INFOS</h2>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="javascript:void(0);">Action</a></li>
+                                        <li><a href="javascript:void(0);">Another action</a></li>
+                                        <li><a href="javascript:void(0);">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="body">
+                            <div class="table-responsive">
+                                <table class="table table-hover dashboard-task-infos">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Task</th>
+                                            <th>Status</th>
+                                            <th>Manager</th>
+                                            <th>Progress</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Task A</td>
+                                            <td><span class="label bg-green">Doing</span></td>
+                                            <td>John Doe</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-green" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 62%"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Task B</td>
+                                            <td><span class="label bg-blue">To Do</span></td>
+                                            <td>John Doe</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-blue" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Task C</td>
+                                            <td><span class="label bg-light-blue">On Hold</span></td>
+                                            <td>John Doe</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-light-blue" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Task D</td>
+                                            <td><span class="label bg-orange">Wait Approvel</span></td>
+                                            <td>John Doe</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Task E</td>
+                                            <td>
+                                                <span class="label bg-red">Suspended</span>
+                                            </td>
+                                            <td>John Doe</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-red" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- #END# Task Info -->
+                <!-- Browser Usage -->
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="header">
+                            <h2>BROWSER USAGE</h2>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="javascript:void(0);">Action</a></li>
+                                        <li><a href="javascript:void(0);">Another action</a></li>
+                                        <li><a href="javascript:void(0);">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="body">
+                            <div id="donut_chart" class="dashboard-donut-chart"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- #END# Browser Usage -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Jquery Core Js -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="plugins/node-waves/waves.js"></script>
+
+    <!-- Jquery CountTo Plugin Js -->
+    <script src="plugins/jquery-countto/jquery.countTo.js"></script>
+
+    <!-- Morris Plugin Js -->
+    <script src="plugins/raphael/raphael.min.js"></script>
+    <script src="plugins/morrisjs/morris.js"></script>
+
+    <!-- ChartJs -->
+    <script src="plugins/chartjs/Chart.bundle.js"></script>
+
+    <!-- Flot Charts Plugin Js -->
+    <script src="plugins/flot-charts/jquery.flot.js"></script>
+    <script src="plugins/flot-charts/jquery.flot.resize.js"></script>
+    <script src="plugins/flot-charts/jquery.flot.pie.js"></script>
+    <script src="plugins/flot-charts/jquery.flot.categories.js"></script>
+    <script src="plugins/flot-charts/jquery.flot.time.js"></script>
+
+    <!-- Sparkline Chart Plugin Js -->
+    <script src="plugins/jquery-sparkline/jquery.sparkline.js"></script>
+
+    <!-- Custom Js -->
+    <script src="js/admin.js"></script>
+    <script src="js/pages/index.js"></script>
+
+    <!-- Demo Js -->
+    <script src="js/demo.js"></script>
 </body>
 
 </html>
