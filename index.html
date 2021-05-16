@@ -27,6 +27,7 @@ Oct 22, 2018·5 min read
 <h3>
     cache-first:
 </h3>
+<img src="/cache-first.jpeg" alt="Italian Trulli">
 <p>
 
     The default fetch policy for Apollo is cache-first. If you do not set a fetch policy yourself, this is what will be used. It favors quick response times for queries over getting the most up-to-date data. If you don’t expect your data to change, or if you are taking care to explicitly update the cache when changes are made, this is a good option. With a cache first fetch-policy:
@@ -43,7 +44,7 @@ If the cache is missing some of the data you asked for, Apollo will make a netwo
 <h3>
     cache-and-network:
 </h3>
-
+<img src="/cache-and-network.jpeg" alt="Italian Trulli">
 I have found ‘cache-and-network’ to be a good option for displaying data that gets updated frequently. While the ‘cache first’ policy emphasizes quick responses to queries, ‘cache-and-network’ puts a little more weight on keeping the cache up-to-date with what is on the server. Implementing this fetch policy can be a good fix if you have data that is changing frequently and your queries are returning out-of-date information.
 <br/>
 1. You query for some data. Apollo checks the cache for the data.
@@ -58,7 +59,7 @@ I have found ‘cache-and-network’ to be a good option for displaying data tha
 <h3>
     network-only:
 </h3>
-
+<img src="/network-only.jpeg" alt="Italian Trulli">
 If you do not want to risk displaying any out-of-date information from the cache, it may make sense to use a ‘network-only’ fetch policy. This policy favors showing the most up-to-date information over quick responses. Unlike ‘cache-and-network’, this policy will never return possibly outdated information from the cache. It will also keep your cache up-to-date for future queries.
 <br/>
 1. Apollo makes a network request for your data without checking the cache.
@@ -69,6 +70,7 @@ If you do not want to risk displaying any out-of-date information from the cache
 <h3>
     no-cache:
 </h3>
+<img src="/no-cache.jpeg" alt="Italian Trulli">
 
 The ‘no-cache’ policy is similar to ‘network-only’, but it skips the step of updating the cache. This might be appropriate if you don’t want to store certain information in your cache at all.
 <br/>
@@ -79,6 +81,7 @@ The ‘no-cache’ policy is similar to ‘network-only’, but it skips the ste
 
     cache-only:
 </h3>
+<img src="/cache-only.jpeg" alt="Italian Trulli">
 
 The opposite of no-cache, this fetch policy avoids making any network requests. If the data you are querying is not available in the cache, it will throw an error. This can be useful if you want to display consistent information to the user, ignoring any server-side changes. It may also be useful if you want to enable parts of your application to work offline.
 <br/>
