@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="width: 960px">
+    Understanding Apollo Fetch Policies
+Galen Corey
+Galen Corey
+
+Oct 22, 2018·5 min read
+
+<p>
+    Like many tools for front end development, the Apollo Client is clever — almost too clever sometimes.
+     One of its very clever features is the Apollo Cache. 
+     The Apollo Client implements a cache to store the results of its queries in the browser, avoiding unnecessary network calls. This is great, because it can help speed up your application. It’s also tricky, because you as the developer might not know where your data is coming from. Depending on your settings, a query may be fetching fresh data from your API server, or it may be pulling that data from the cache. This becomes especially noticeable when you are working with data that gets updated frequently, since the data in your cache can become out-of-date with what’s on the server.
+</p>
+<h3>
+    Fetch Policies
+</h3>
+<p>
+    Whether your query gets its data from the cache or from the API depends on which fetch policy that query is using. The fetch policy tells Apollo whether to prioritize getting the most recent data from the server or getting a faster response from the cache. Understanding the different fetch policies can give you a better sense of data flow in an Apollo GraphQL application, and help you to troubleshoot when you are not getting the data you expect.
+</p>
+<h3>
+    cache-first:
+</h3>
+<p>
+
+    The default fetch policy for Apollo is cache-first. If you do not set a fetch policy yourself, this is what will be used. It favors quick response times for queries over getting the most up-to-date data. If you don’t expect your data to change, or if you are taking care to explicitly update the cache when changes are made, this is a good option. With a cache first fetch-policy:
+</p>
+
+1. You query for some data. Apollo checks the cache for the data. 
+<br/>
+2. If all of the data is present in the cache, skip directly to step 4.
+If the cache is missing some of the data you asked for, Apollo will make a network request to your API.
+<br/>
+3. The API responds with the data, Apollo uses it to update the cache.
+<br/>
+4. The requested data is returned.
+<h3>
+    cache-and-network:
+</h3>
+
+I have found ‘cache-and-network’ to be a good option for displaying data that gets updated frequently. While the ‘cache first’ policy emphasizes quick responses to queries, ‘cache-and-network’ puts a little more weight on keeping the cache up-to-date with what is on the server. Implementing this fetch policy can be a good fix if you have data that is changing frequently and your queries are returning out-of-date information.
+<br/>
+1. You query for some data. Apollo checks the cache for the data.
+<br/>
+2. If the data is in the cache, return that cached data.
+<br/>
+3. Regardless of whether any data was found in step two, pass the query along to the API to get the most up-to-date data.
+<br/>
+4. Update the cache with any new data from the API.
+<br/>
+5. Return the updated API data.
+<h3>
+    network-only:
+</h3>
+
+If you do not want to risk displaying any out-of-date information from the cache, it may make sense to use a ‘network-only’ fetch policy. This policy favors showing the most up-to-date information over quick responses. Unlike ‘cache-and-network’, this policy will never return possibly outdated information from the cache. It will also keep your cache up-to-date for future queries.
+<br/>
+1. Apollo makes a network request for your data without checking the cache.
+<br/>
+2. The server responds with your data and the cache is updated.
+<br/>
+3. The data is returned.
+<h3>
+    no-cache:
+</h3>
+
+The ‘no-cache’ policy is similar to ‘network-only’, but it skips the step of updating the cache. This might be appropriate if you don’t want to store certain information in your cache at all.
+<br/>
+1. Apollo makes a network request for your data without checking the cache.
+<br/>
+2. The server responds and the data is returned without updating the cache.
+<h3>
+
+    cache-only:
+</h3>
+
+The opposite of no-cache, this fetch policy avoids making any network requests. If the data you are querying is not available in the cache, it will throw an error. This can be useful if you want to display consistent information to the user, ignoring any server-side changes. It may also be useful if you want to enable parts of your application to work offline.
+<br/>
+1. Apollo checks the cache for queried data.
+<br/>
+2. If all the data is present in the cache, it is returned (otherwise, an error is thrown).
+<h3>
+    Setting Fetch Policies
+</h3>
+You can set a fetch policy for your entire application to use, or you can set individual fetch policies for a given query. The method for doing this will depend on which (if any) framework you are using.
+<h3>
+    Do I really need to change my fetch policy?
+</h3>
+Maybe, but maybe not. While understanding fetch policies can be extremely helpful in thinking about data flow possibilities with Apollo, it is by no means the only tool you have when it comes to ensuring you are using current data. You may run into circumstances where updating the fetch policy is exactly what you need to get the job done, but I would also recommend exploring refetching, polling, and optimistic responses.
+</body>
+</html>
