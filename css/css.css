@@ -4,3 +4,9 @@
   font-weight: 400;
   src: url(../fonts/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiYA.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Great Vibes script=latin rev=1';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/GreatVibes-Regular.ttf) format('truetype');
+}
