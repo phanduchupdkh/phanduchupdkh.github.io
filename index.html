@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Còn bao nhiêu ngày nữa Tết - Đếm ngược Tết Nguyên đán 2023 | saptet.com</title>
+	<title>Thiên thần nhỏ của Xuân Đức - Thu Loan</title>
 	<meta name="description"
 		content="Còn bao nhiêu ngày nữa đến Tết? Trang đếm ngược Tết Nguyên đán chính thức. Thêm vào màn hình không cần cài app.">
 	<meta name="author" content="saptet.com">
@@ -13,7 +13,7 @@
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="canonical" href="https://www.saptet.com/">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Còn bao nhiêu ngày nữa Tết - Đếm ngược Tết Nguyên đán 2023 | saptet.com">
+	<meta property="og:title" content="Thiên thần nhỏ của Xuân Đức - Thu Loan">
 	<meta property="og:site_name" content="saptet.com">
 	<meta property="og:url" content="https://www.saptet.com/">
 	<meta property="og:description"
@@ -1219,11 +1219,23 @@
 							<div id="days-2" class="num"></div>
 							<div id="days-text" class="text">Ngày</div>
 						</div>
+						<div class="clock-item">
+							<div  class="num"> Tức là</div>
+						</div>
+						<div class="clock-item">
+							<div id="hours" class="num">3</div>
+							<div id="hours-text" class="text">Tháng</div>
+						</div>
+						<div class="clock-item">
+							<div id="mins" class="num">30</div>
+							<div id="mins-text" class="text">Ngày</div>
+						</div>
 					</div>
 					<!--p id="featured">Mời Tham Khảo:<br><a href="https://aingon.com/" target="_blank">Xếp hạng người nổi tiếng bằng thuật toán<br>Mark Zuckerberg đã dùng để đánh sập mạng máy tính Đại học Harvard</a></p-->
 				</section>
-				<h2 id="tet">Quý Mão 2023</h2>
-				<p><img class="alignnone size-full wp-image-50" src="https://i.pinimg.com/originals/78/7a/d0/787ad0e39e842d9972af69d2f8d73f46.jpg"
+				<h2 >14-02-2023</h2>
+				<p><img class="alignnone size-full wp-image-50"
+						src="https://i.pinimg.com/originals/78/7a/d0/787ad0e39e842d9972af69d2f8d73f46.jpg"
 						alt="Tết Nguyên Đán 2022" width="1073" height="779"
 						srcset="https://i.pinimg.com/originals/78/7a/d0/787ad0e39e842d9972af69d2f8d73f46.jpg 1073w, https://www.saptet.com/media/tet-nguyen-dan-300x218.png 300w, https://www.saptet.com/media/tet-nguyen-dan-1024x743.png 1024w, https://www.saptet.com/media/tet-nguyen-dan-768x558.png 768w"
 						sizes="(max-width: 1073px) 100vw, 1073px"></p>
@@ -1281,16 +1293,25 @@
 						if (a <= o) {
 							var s = e[m].m1, h = !1, l = m + 2018,
 								c = e[m].name + " " + l, i = "Thiên thần nhỏ sắp chào đời, chỉ còn....",
-								x = "Chúc", u = "Mừng", f = "Năm", g = "Mới", p = "Ngày", C = "Giờ", T = "Phút", D = "Giây";
+								x = "Chúc", u = "Mừng", f = "Năm", g = "Mới", p = "Ngày", C = "Tháng", T = "Ngày", D = "Giây";
 							if (a >= e[m].m1 && (s = o, a >= n
 								? i = "Sắp hết Tết rồi!!!"
 								: (h = !0, i = "Tết rồi!!!Tết rồi!!!", p = "Cung", C = "Chúc", T = "Tân", D = "Xuân")), !h) {
-								var M = s - a; g = Math.floor(M / 1e3 % 60), f = Math.floor(M / 1e3 / 60 % 60),
-									u = Math.floor(M / 36e5 % 24), x = Math.floor(M / 864e5)
+								var M = s - a;
+								g = Math.floor(M / 1e3 % 60),
+									f = Math.floor((M / 864e5 )% 30),
+									u = Math.floor(M / 864e5 / 30),
+									x = Math.floor(M / 864e5)
 							} $("#tetornot").text(i), $("#days").text(x),
 								15 == x && $("#featured").html('Hôm nay là rằm tháng Chạp<br><a href="/am-lich/">Xem lịch âm 2021</a>'),
-								$("#hours").text(u), $("#mins").text(f), $("#secs").text(g), $("#days-text").text(p),
-								$("#hours-text").text(C), $("#mins-text").text(T), $("#secs-text").text(D), $("#tet").text(c),
+								$("#hours").text(u),
+								$("#mins").text(f),
+								$("#secs").text(g),
+								$("#days-text").text(p),
+								$("#hours-text").text(C),
+								$("#mins-text").text(T),
+								$("#secs-text").text(D),
+								$("#tet").text(c),
 								a >= r ? ($(".clock").toggleClass("tet"), $(".clock .text").toggleClass("tet")) : $(".clock").removeClass("tet"); break
 						}
 					}
